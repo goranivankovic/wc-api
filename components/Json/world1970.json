@@ -1,0 +1,86 @@
+{
+
+              
+    "world1970":{
+        "quaterFinalls":{
+    
+            "firstGame":{
+            "date":"14 June 1970",
+            "staduim":"Estadio Azteca, Mexico City",
+            "cou":"Mexico",
+            "attendance":"26,085",
+            "game":["Soviet Union ","Uruguay","0-1"]
+           
+            },
+            "secondGame":{
+                "date":"14 June 1970",
+                "staduim":"Estadio Luis Dosal, Toluca",
+                "cou":"Mexico",
+                "attendance":"26,851",
+                "game":["Italy","Mexico","4-1"]
+               
+                },
+    
+                "threedGame":{
+                    "date":"14 June 1970",
+                    "staduim":"Estadio Jalisco, Guadalajara",
+                    "cou":"Mexico",
+                    "attendance":"54,233",
+                    "game":["Brazil","Peru","4-2"]
+                    
+                    },
+                "fourGame":{
+                        "date":"14 June 1970",
+                        "staduim":"Estadio Nou Camp, León",
+                        "cou":"Mexico",
+                        "attendance":"23,357",
+                        "game":["West Germany","England","2-2"],
+                        "overtime":["Germany win","3-2"]
+                       
+                }
+           
+        },
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"17 June 1970",
+            "staduim":"Estadio Jalisco,",
+            "cou":"Mexico",
+            "attendance":"51,261",
+            "game":["Brazil","Uruguay","3-1"]
+           
+        },
+        "secondGame":{
+            "date":"17 June 1970",
+            "staduim":"Estadio Azteca, Mexico City",
+            "cou":"Mexico",
+            "attendance":"102,444",
+            "game":["Italy","West Germany","1-1"],
+            "overtime":["Italy win","4-3"]
+            
+           
+        }
+    },"final":{
+        "date":"21 June 1970",
+        "staduim":"Estadio Azteca, Mexico City",
+        "cou":"Mexico",
+        "attendance":"107,412",
+        "game":["Brazil","Italy","4-1"]
+        
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    }

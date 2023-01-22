@@ -1,0 +1,100 @@
+{
+
+              
+    "world2014":{
+        "quaterFinalls":{
+    
+            "firstGame":{
+            "date":"24 July 2014",
+            "staduim":"Estádio do Maracanã, Rio de Janeiro",
+            "cou":"Brazil",
+            "attendance":"74,240",
+            "game":["France ","Germany","0-1"]
+            
+            
+           
+            },
+            "secondGame":{
+                "date":"4 July 2014",
+                "staduim":"Estádio Castelão, Fortaleza",
+                "cou":"Brazil",
+                "attendance":"60,342",
+                "game":["Brazil","Colombia","2-1"]
+            
+                
+               
+                },
+    
+                "threedGame":{
+                    "date":"5 July 2014",
+                    "staduim":"Estádio Nacional Mané Garrincha, Brasília",
+                    "cou":"Brazil",
+                    "attendance":"68,551",
+                    "game":["Argentina","Belgium","1-0"]
+                   
+                    
+                    },
+                "fourGame":{
+                        "date":"5 July 2014",
+                        "staduim":"Itaipava Arena Fonte Nova, Salvador",
+                        "cou":"Brazil",
+                        "attendance":"51,179",
+                        "game":["Netherlands","Costa Rica","0-0"],
+                        "penalties":["Netherlands win","4-3"]
+                      
+                        
+                       
+                }
+           
+        },
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"8 July 2014",
+            "staduim":"Estádio Mineirão, Belo Horizonte",
+            "cou":"Brazil",
+            "attendance":"58,141",
+            "game":["Brazil","Germany","1-7"]
+       
+            
+           
+           
+        },
+        "secondGame":{
+            "date":"9 July 2014",
+            "staduim":"Arena Corinthians, São Paulo",
+            "cou":"Brazil",
+            "attendance":"63,267",
+            "game":["Netherlands","Argentina","0-0"],
+            "penalties":["Argentina win","4-2"]
+            
+            
+            
+           
+        }
+    },"final":{
+        "date":"13 July 2014",
+        "staduim":"Estádio do Maracanã, Rio de Janeiro",
+        "cou":"Brazil",
+        "attendance":" 74,738",
+        "game":["Germany ","Argentina","0-0"],
+        "overtime":["Germany win","1-0"]
+       
+        
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    }

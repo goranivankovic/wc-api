@@ -1,0 +1,88 @@
+{
+
+              
+    "world1986":{
+        "quaterFinalls":{
+    
+            "firstGame":{
+            "date":"21 June 1986",
+            "staduim":"Estadio Jalisco, Guadalajara",
+            "cou":"Mexico",
+            "attendance":"65,000",
+            "game":["Brazil ","France","1-1"],
+            "penalties":["France win","4-3"]
+           
+            },
+            "secondGame":{
+                "date":"21 June 1986",
+                "staduim":"Estadio Universitario, Monterrey",
+                "cou":"Mexico",
+                "attendance":"41,700",
+                "game":["West Germany","Mexico","1-1"],
+                "penalties":["West Germany win","4-1"]
+               
+                },
+    
+                "threedGame":{
+                    "date":"22 June 1986",
+                    "staduim":"Estadio Azteca, Mexico City",
+                    "cou":"Mexico",
+                    "attendance":"114,580",
+                    "game":["Argentina","England","2-1"]
+                    
+                    },
+                "fourGame":{
+                        "date":"22 June 1986",
+                        "staduim":"Estadio Cuauhtémoc, Puebla",
+                        "cou":"Mexico",
+                        "attendance":"45,000",
+                        "game":["Spain","Belgium","1-1"],
+                        "penalties":["Belgium win","5-4"]
+                       
+                }
+           
+        },
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"25 June 1986",
+            "staduim":"Estadio Jalisco, Guadalajara,",
+            "cou":"Mexico",
+            "attendance":"45,000",
+            "game":["France","West Germany","0-2"]
+           
+        },
+        "secondGame":{
+            "date":"17 June 1970",
+            "staduim":"Estadio Azteca, Mexico City",
+            "cou":"Mexico",
+            "attendance":"114,500",
+            "game":["Argentina","Belgium","2-0"]
+            
+            
+           
+        }
+    },"final":{
+        "date":"29 June 1986",
+        "staduim":"Estadio Azteca, Mexico City",
+        "cou":"Mexico",
+        "attendance":"114,600",
+        "game":["Argentina","West Germany","3-2"]
+        
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    }

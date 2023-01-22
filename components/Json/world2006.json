@@ -1,0 +1,98 @@
+{
+
+              
+    "world2006":{
+        "quaterFinalls":{
+    
+            "firstGame":{
+            "date":"30 June 2006",
+            "staduim":"Olympiastadion, Berlin",
+            "cou":"Germany",
+            "attendance":"72,000",
+            "game":["Germany ","Argentina","1-1"],
+            "penalties":["Germany win","4-2"]
+            
+            
+           
+            },
+            "secondGame":{
+                "date":"30 June 2006",
+                "staduim":"FIFA WM-Stadion Hamburg, Hamburg",
+                "cou":"Germany",
+                "attendance":"50,000",
+                "game":["Italy","Ukraine","3-0"]
+                
+               
+                },
+    
+                "threedGame":{
+                    "date":"1 July 2006",
+                    "staduim":"FIFA WM-Stadion Frankfurt, Frankfurt",
+                    "cou":"Germany",
+                    "attendance":"52,000",
+                    "game":["Brazil","France","0-1"]
+                   
+                    
+                    },
+                "fourGame":{
+                        "date":"1 July 2006",
+                        "staduim":"FIFA WM-Stadion Gelsenkirchen, Gelsenkirchen",
+                        "cou":"Germany",
+                        "attendance":"52,000",
+                        "game":["England","Portugal","0-0"],
+                        "penalties":["Portugal win","3-1"]
+                        
+                       
+                }
+           
+        },
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"4 July 2006",
+            "staduim":"FIFA WM-Stadion Dortmund, Dortmund",
+            "cou":"Germany",
+            "attendance":"65,000",
+            "game":["Germany","Italy","0-0"],
+            "overtime":["Italy win","2-0"]
+            
+           
+           
+        },
+        "secondGame":{
+            "date":"5 July 2006",
+            "staduim":"FIFA WM-Stadion München, Munich",
+            "cou":"Japan/Korea",
+            "attendance":"66,000",
+            "game":["Portugal","France","0-1"]
+            
+            
+            
+           
+        }
+    },"final":{
+        "date":"9 July 2006",
+        "staduim":"Olympiastadion, Berlin",
+        "cou":"Germany",
+        "attendance":"69,000",
+        "game":["Italy","France","1-1"],
+        "penalties":["Italy win","5-3"]
+       
+        
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    }

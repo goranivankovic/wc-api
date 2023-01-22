@@ -1,0 +1,42 @@
+{
+
+              
+    "world1978":{
+        
+    
+    "thirdplace":{
+    
+       
+       
+            "date":"24 June 1978",
+            "staduim":"Estadio Monumental, Buenos Aires",
+            "cou":"Argentina",
+            "attendance":"69,659",
+            "game":["Brazil","Italy","2-1"]
+            
+            
+           
+     
+    },"final":{
+        "date":"25 June 1978",
+        "staduim":"Estadio Monumental, Buenos Aires",
+        "cou":"Argentina",
+        "attendance":"71,483",
+        "game":["Argentina","Netherlands ","1-1"],
+        "overtime":["Argentina win","3-1"]
+        
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    }

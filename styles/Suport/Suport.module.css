@@ -1,0 +1,351 @@
+.main {
+    min-height: 120vmin;
+    width: 100%;
+    background-image: url('../../images/Suport.png');
+    background-repeat: no-repeat;
+    background-origin: cover;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+
+.headline {
+    min-height: 10vmin;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3vmin;
+    color: #0D5DCD;
+  
+
+}
+
+.secondDiv {
+    min-height: 20vmin;
+    width: 75%;
+    font-size: 2.6vmin;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+
+}
+
+
+
+.threedDiv {
+
+    min-height: 37vmin;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* border: 1px solid red; */
+
+   
+}
+
+.threedDiv_items {
+    height: 50%;
+    width: 25%;
+    color: white;
+    text-align: center;
+
+}
+
+.threedDiv_items:hover {
+    transform: scale(0.93);
+    transition: 1200ms;
+}
+
+
+.fourDiv {
+
+    height: 37vmin;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+
+}
+
+.prazanDiv {
+    height: 10vmin;
+    width: 100%;
+    /* border: 1px solid green; */
+}
+
+
+
+
+@media only screen and (max-width:1200px) {
+
+    .headline {
+            min-height: 10vmin;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 3vmin;
+            color: #0D5DCD;
+           
+    
+    
+        }
+
+
+                .secondDiv {
+                    min-height: 20vmin;
+                    width: 80%;
+                    font-size: 2.4vmin;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                
+                  
+                }
+
+
+                                .threedDiv {
+                
+                                    min-height: 37vmin;
+                                    width: 60%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                 
+                
+                                }
+
+         .fourDiv {
+    
+             height: 37vmin;
+             width: 60%;
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+           
+    
+         }
+
+
+          
+      
+
+          
+
+}
+
+
+
+
+@media only screen and (max-width:992px) {
+
+    .headline {
+        min-height: 10vmin;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 3vmin;
+        color: #0D5DCD;
+  
+
+
+    }
+
+
+    .secondDiv {
+        min-height: 20vmin;
+        width: 85%;
+        font-size: 2.5vmin;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+
+    .threedDiv {
+
+        min-height: 37vmin;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+
+    }
+
+    .fourDiv {
+
+        height: 37vmin;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     
+
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+
+
+    .main {
+            min-height: 120vmin;
+            width: 100%;
+            background-image: url('../../images/Suport.png');
+            background-repeat: no-repeat;
+            background-origin: cover;
+            background-size: 100% 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            cursor: pointer;
+    
+        }
+
+
+
+    .headline {
+        min-height: 10vmin;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 3vmin;
+        color: #0D5DCD;
+
+
+
+    }
+
+
+    .secondDiv {
+        min-height: 20vmin;
+        width: 80%;
+        font-size: 2.5vmin;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .threedDiv {
+
+        min-height: 155vmin;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+
+        .threedDiv_items {
+            height: 50vmin;
+            width: 75%;
+            color: white;
+            text-align: center;
+         
+        margin-top: 10px;
+    
+        }
+
+
+
+    .fourDiv {
+
+        height: 155vmin;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+/* 
+        border: 1px solid red; */
+
+
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+
+    .headline {
+            min-height: 10vmin;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 4vmin;
+            color: #0D5DCD;
+    
+    
+    
+        }
+    
+    
+        .secondDiv {
+            min-height: 20vmin;
+            width: 90%;
+            font-size: 3.2vmin;
+            color: white;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+           
+            /* border: 1px solid red; */
+           
+        
+    
+        }
+
+
+
+}
+
+

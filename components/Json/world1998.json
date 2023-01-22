@@ -1,0 +1,93 @@
+{
+
+              
+    "world1998":{
+        "quaterFinalls":{
+    
+            "firstGame":{
+            "date":"3 July 1998",
+            "staduim":"tade de France, Saint-Denis",
+            "cou":"France",
+            "attendance":"77,000",
+            "game":["Italy ","France","0-0"],
+            "penalties":["France win","4-3"]
+            
+           
+            },
+            "secondGame":{
+                "date":"3 July 1998",
+                "staduim":"Stade de la Beaujoire, Nantes",
+                "cou":"France",
+                "attendance":"35,500",
+                "game":["Brazil","Denmark","3-2"]
+                
+               
+                },
+    
+                "threedGame":{
+                    "date":"4 July 1998",
+                    "staduim":"GStade Vélodrome, Marseille",
+                    "cou":"France",
+                    "attendance":"55,000",
+                    "game":["Netherlands","Argentina","2-1"]
+                    
+                    },
+                "fourGame":{
+                        "date":"4 July 1998",
+                        "staduim":"Stade de Gerland, Lyon",
+                        "cou":"France",
+                        "attendance":"39,100",
+                        "game":["Germany","Croatia","0-3"]
+                        
+                       
+                }
+           
+        },
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"7 July 1998",
+            "staduim":"Stade Vélodrome, Marseille",
+            "cou":"France",
+            "attendance":"54,000",
+            "game":["Brazil","Netherlands","1-1"],
+            "penalties":["Brazil win","4-2"]
+           
+           
+        },
+        "secondGame":{
+            "date":"8 July 1998",
+            "staduim":"Stade de France, Saint-Denis",
+            "cou":"France",
+            "attendance":"76,000",
+            "game":["France","Crotia","2-1"]
+            
+            
+            
+           
+        }
+    },"final":{
+        "date":"12 July 1998",
+        "staduim":"Stade de France, Saint-Denis",
+        "cou":"USA",
+        "attendance":"80,000",
+        "game":["Brazil","France","0-3"]
+       
+        
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    }

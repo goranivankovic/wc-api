@@ -1,0 +1,83 @@
+{
+    
+"world1938":{
+    "quaterFinalls":{
+
+        "firstGame":{
+        "date":"12 June  1938",
+        "staduim":"Stade Olympique de Colombes, Colombes",
+        "cou":"France",
+        "attendance":"58,455",
+        "game":["Italy","France","3-1"]
+       
+        },
+        "secondGame":{
+            "date":"12 June  1938",
+            "staduim":"Parc Lescure, Bordeaux",
+            "cou":"France",
+            "attendance":"22,021",
+            "game":["Brazil"," Czechoslovakia","2-1"]
+           
+            },
+
+            "threedGame":{
+                "date":"12 June  1938",
+                "staduim":"Stade Victor Boucquey, Lille",
+                "cou":"France",
+                "attendance":"15,000",
+                "game":["Hungary","Switzerland","2-0"]
+                
+                },
+            "fourGame":{
+                    "date":"12 June  1938",
+                    "staduim":"Stade du Fort Carré, Antibes",
+                    "cou":"France",
+                    "attendance":"7,000",
+                    "game":["Sweden","Cuba","8-0"]
+                   
+            }
+       
+    },
+
+
+"semiFinalls":{
+
+    "firstGame":{
+        "date":"16 June 1938",
+        "staduim":"Stade Vélodrome, Marseille",
+        "cou":"France",
+        "attendance":"33,000",
+        "game":["Italy","Brazil","2-1"]
+       
+    },
+    "secondGame":{
+        "date":"16 June 1938",
+        "staduim":"Parc des Princes, Paris",
+        "cou":"France",
+        "attendance":"20,000",
+        "game":["Hungary","Sweden","5-1"]
+       
+    }
+},"final":{
+    "date":"19 June 1938",
+    "staduim":"Stade Olympique de Colombes, Paris",
+    "cou":"France",
+    "attendance":"45,00",
+    "game":["Italy","Hungary","4-2"]
+    
+       
+
+}
+
+
+
+
+
+}
+
+
+}
+
+
+
+

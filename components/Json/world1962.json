@@ -1,0 +1,81 @@
+{
+          
+"world1962":{
+    "quaterFinalls":{
+
+        "firstGame":{
+        "date":"10 Jun  1962",
+        "staduim":"Estadio Carlos Dittborn, Arica",
+        "cou":"Chile",
+        "attendance":"17,268",
+        "game":["Soviet Union","Chile","1-2"]
+       
+        },
+        "secondGame":{
+            "date":"10 Jun  1962",
+            "staduim":"Estadio Sausalito, Viña del Mar",
+            "cou":"Chile",
+            "attendance":"17,736",
+            "game":["Brazil","Engaland","3-1"]
+           
+            },
+
+            "threedGame":{
+                "date":"10 Jun  1962",
+                "staduim":"Estadio El Teniente, Rancagua",
+                "cou":"Chile",
+                "attendance":"11,690",
+                "game":["Czechoslovakia","HungaRY","1-0"]
+                
+                },
+            "fourGame":{
+                    "date":"10 Jun  1962",
+                    "staduim":"Estadio Nacional, Santiago",
+                    "cou":"Chile",
+                    "attendance":"63,324",
+                    "game":["Yugoslavia","West Germany","1-0"]
+                   
+            }
+       
+    },
+
+
+"semiFinalls":{
+
+    "firstGame":{
+        "date":"13 June 1962",
+        "staduim":"Estadio Sausalito, Viña del Mar",
+        "cou":"Chile",
+        "attendance":"5,890",
+        "game":["Czechoslovakia","Yugoslavia","3-1"]
+       
+    },
+    "secondGame":{
+        "date":"13 June 1962",
+        "staduim":"Estadio Nacional, Santiago",
+        "cou":"Chile",
+        "attendance":"76,594",
+        "game":["Brzil","Chile","4-2"]
+        
+       
+    }
+},"final":{
+    "date":"17 June 1962",
+    "staduim":"Estadio Nacional, Santiago",
+    "cou":"Chile",
+    "attendance":"68,679",
+    "game":["Brazil","Czechoslovakia","3-1"]
+    
+       
+
+}
+
+
+
+
+
+}
+
+
+
+}

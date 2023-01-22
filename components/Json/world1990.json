@@ -1,0 +1,90 @@
+{
+
+              
+    "world1990":{
+        "quaterFinalls":{
+    
+            "firstGame":{
+            "date":"30 June 1990",
+            "staduim":"Stadio Comunale, Florence",
+            "cou":"Italy",
+            "attendance":"38,971",
+            "game":["Argentina ","Yugoslavia","0-0"],
+            "penalties":["Argentina win","3-2"]
+           
+            },
+            "secondGame":{
+                "date":"30 June 1990",
+                "staduim":"Stadio Olimpico, Rome",
+                "cou":"Italy",
+                "attendance":"73,303",
+                "game":["Republic of Ireland ","Italy","0-1"]
+                
+               
+                },
+    
+                "threedGame":{
+                    "date":"1 July 1990",
+                    "staduim":"San Siro, Milan",
+                    "cou":"Italy",
+                    "attendance":"73,347",
+                    "game":["Czechoslovakia","West Germany","0-1"]
+                    
+                    },
+                "fourGame":{
+                        "date":"1 July 1990",
+                        "staduim":"Stadio San Paolo, Naples",
+                        "cou":"Italy",
+                        "attendance":"55,205",
+                        "game":["Cameroon","England","2-2"],
+                        "overtime":["England win","3-2"]
+                       
+                }
+           
+        },
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"3 July 1990",
+            "staduim":"Stadio San Paolo, Naples",
+            "cou":"Italy",
+            "attendance":"59,978",
+            "game":["Argentina"," Italy","1-1"],
+            "penalties":["Argentina win","4-3"]
+           
+        },
+        "secondGame":{
+            "date":"4 July 1990",
+            "staduim":"Stadio delle Alpi, Turin",
+            "cou":"Italy",
+            "attendance":"62,628",
+            "game":["West Germany","England","1-1"],
+            "penalties":["West Germany win","4-3"]
+            
+            
+           
+        }
+    },"final":{
+        "date":"8 July 1990",
+        "staduim":"Stadio Olimpico, Rome",
+        "cou":"Italy",
+        "attendance":"73,603",
+        "game":["West Germany","Argentina","1-0"]
+        
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    }

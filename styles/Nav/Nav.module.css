@@ -1,0 +1,236 @@
+.main {
+    
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #0D5DCD;
+    z-index: 10;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+   
+
+}
+
+.logo {
+    width: 15%;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: space-around;
+font-size: 2.35vmin;
+    color: white;
+
+}
+
+
+
+.navItems {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    align-self: center;
+
+   
+ 
+    /* border: 1px solid palevioletred; */
+
+}
+
+.navItems a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.1vmin;
+  
+}
+
+.navItems a:hover{
+    transition: 750ms;
+    transform: scale(.96);
+    color:#FFA500;
+}
+
+
+
+
+
+
+.main768 {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #0D5DCD;
+    z-index: 10;
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  
+}
+
+.bar {
+
+    display: none;
+}
+
+
+@media only screen and (max-width:1200px) {
+
+    .logo {
+            width: 15%;
+            padding-left: 30px;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 2.3vmin;
+            color: white;
+    
+        }
+
+                .navItems {
+                    width: 70%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    list-style: none;
+                    align-self: center;
+        
+        
+        
+                    /* border: 1px solid palevioletred; */
+        
+                }
+
+    .navItems a {
+            text-decoration: none;
+            color: white;
+            font-size: 2.1vmin;
+    
+        }
+
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .main {
+    
+          display: none;
+    
+    
+        }
+
+   
+
+
+                .main768 {
+                    position: fixed;
+                    top: 0%;
+                    left: 0%;
+                    width: 100%;
+                    height: 120vmin;
+                    background-color: #0D5DCD;
+                    z-index: 10;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    transition: all 0.7s ease-out;
+                    cursor: pointer;
+                    border-bottom-left-radius: 10%;
+                    border-bottom-right-radius: 10%;
+
+
+
+                  
+        
+                }
+
+                .main768 a{
+                    text-decoration: none;
+                        color: white;
+                        font-size: 2.2vmin;
+                }
+
+
+                                .bar {
+
+                                    display: block;
+ 
+                                    position: fixed;
+                                    top: 2%;
+                                    right: 3%;
+                                    font-size: 3vmin;
+                                    z-index: 50;
+                
+                                   
+                                }
+
+
+
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+    .main768 {
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 120vmin;
+           transition: all 0.7s ease-out;
+            background-color: #0D5DCD;
+            z-index: 10;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            cursor: pointer;
+            border-bottom-left-radius: 10%;
+            border-bottom-right-radius: 10%;
+
+           
+            
+           
+    
+        }
+
+
+        .bar {
+        
+                display: block;
+        
+                position: fixed;
+                top: 3%;
+                right: 5%;
+                font-size: 5vmin;
+                z-index: 50;
+        
+        
+            }
+
+
+    .main768 a {
+            text-decoration: none;
+            color: white;
+            font-size: 3vmin;
+        }
+
+
+
+}
+
+
+
+
+ 

@@ -1,0 +1,98 @@
+{
+
+              
+    "world2010":{
+        "quaterFinalls":{
+    
+            "firstGame":{
+            "date":"2 July 2010",
+            "staduim":"Nelson Mandela Bay Stadium, Port Elizabeth",
+            "cou":"South Africa",
+            "attendance":"40,186",
+            "game":["Netherlands ","Brazil","2-1"]
+            
+            
+           
+            },
+            "secondGame":{
+                "date":"2 July 2010",
+                "staduim":"Soccer City, Johannesburg",
+                "cou":"South Africa",
+                "attendance":"84,017",
+                "game":["Uruguay","Ghana","1-1"],
+                "penalties":["Uruguay win","4-2"]
+                
+               
+                },
+    
+                "threedGame":{
+                    "date":"3 July 2010",
+                    "staduim":"Cape Town Stadium, Cape Town",
+                    "cou":"South Africa",
+                    "attendance":"64,100",
+                    "game":["Argentina","Germany","0-4"]
+                   
+                    
+                    },
+                "fourGame":{
+                        "date":"3 July 2010",
+                        "staduim":"Ellis Park Stadium, Johannesburg",
+                        "cou":"South Africa",
+                        "attendance":"55,539",
+                        "game":["Paraguay","Spain","0-1"]
+                      
+                        
+                       
+                }
+           
+        },
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"6 July 2010",
+            "staduim":"Cape Town Stadium, Cape Town",
+            "cou":"South Africa",
+            "attendance":"62,479",
+            "game":["Uruguay","Netherlands","2-3"]
+       
+            
+           
+           
+        },
+        "secondGame":{
+            "date":"7 July 2010",
+            "staduim":"Moses Mabhida Stadium, Durban",
+            "cou":"South Africa",
+            "attendance":"60,960",
+            "game":["Germany","Spain","0-1"]
+            
+            
+            
+           
+        }
+    },"final":{
+        "date":"11 July 2010",
+        "staduim":"Soccer City, Johannesburg",
+        "cou":"South Africa",
+        "attendance":"84,490",
+        "game":["Netherlands ","Spain","0-0"],
+        "overtime":["Spain win","1-0"]
+       
+        
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    }

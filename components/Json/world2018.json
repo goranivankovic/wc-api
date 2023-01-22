@@ -1,0 +1,100 @@
+{
+
+              
+    "world2018":{
+        "quaterFinalls":{
+    
+            "firstGame":{
+            "date":"6 July 2018",
+            "staduim":"Nizhny Novgorod Stadium, Nizhny Novgorod",
+            "cou":"Russia",
+            "attendance":"43,319",
+            "game":["Uruguay ","France","0-2"]
+            
+            
+           
+            },
+            "secondGame":{
+                "date":"6 July 2018",
+                "staduim":"Kazan Arena, Kazan",
+                "cou":"Russia",
+                "attendance":"42,873",
+                "game":["Brazil","Belgium","1-2"]
+            
+                
+               
+                },
+    
+                "threedGame":{
+                    "date":"7 July 2018",
+                    "staduim":"Cosmos Arena, Samara",
+                    "cou":"Russia",
+                    "attendance":"39,991",
+                    "game":["Sweden","England","0-2"]
+                   
+                    
+                    },
+                "fourGame":{
+                        "date":"7 July 2018",
+                        "staduim":"Fisht Olympic Stadium, Sochi",
+                        "cou":"Russia",
+                        "attendance":"44,287",
+                        "game":["Croatia","Russia","1-1"],
+                        "penalties":["Croatia win","4-3"]
+                      
+                        
+                       
+                }
+           
+        },
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"10 July 2018",
+            "staduim":"Krestovsky Stadium, Saint Petersburg",
+            "cou":"Russia",
+            "attendance":"64,286",
+            "game":["France","Belgium","1-0"]
+       
+            
+           
+           
+        },
+        "secondGame":{
+            "date":"11 July 2018",
+            "staduim":"Luzhniki Stadium, Moscow",
+            "cou":"Russia",
+            "attendance":"78,011",
+            "game":["Croatia","England","1-1"],
+            "overtime":["Croatia win","2-1"]
+            
+            
+            
+           
+        }
+    },"final":{
+        "date":"15 July 2018",
+        "staduim":"Luzhniki Stadium, Moscow",
+        "cou":"Russia",
+        "attendance":" 78,011",
+        "game":["France ","Croatia","4-2"]
+       
+       
+        
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    }

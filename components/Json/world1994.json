@@ -1,0 +1,91 @@
+{
+
+              
+    "world1994":{
+        "quaterFinalls":{
+    
+            "firstGame":{
+            "date":"July 9, 1994",
+            "staduim":"Foxboro Stadium, Foxborough",
+            "cou":"USA",
+            "attendance":"53,400",
+            "game":["Italy ","Spain","2-1"]
+            
+           
+            },
+            "secondGame":{
+                "date":"July 9, 1994",
+                "staduim":"Cotton Bowl, Dallas",
+                "cou":"USA",
+                "attendance":"63,500",
+                "game":["Netherlands","Brazil","2-3"]
+                
+               
+                },
+    
+                "threedGame":{
+                    "date":"July 10, 1994",
+                    "staduim":"Giants Stadium, East Rutherford",
+                    "cou":"USA",
+                    "attendance":"72,000",
+                    "game":["Bulgaria","Germany","2-1"]
+                    
+                    },
+                "fourGame":{
+                        "date":"July 10, 1994",
+                        "staduim":"Stanford Stadium, Stanford",
+                        "cou":"USA",
+                        "attendance":"83,500",
+                        "game":["Romania","Sweden","2-2"],
+                        "penalties":["Sweden win","4-5"]
+                       
+                }
+           
+        },
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"July 13, 1994",
+            "staduim":"Giants Stadium, East Rutherford",
+            "cou":"USA",
+            "attendance":"74,110",
+            "game":["Bulgaria"," Italy","1-2"]
+           
+           
+        },
+        "secondGame":{
+            "date":"July 13, 1994",
+            "staduim":"Rose Bowl, Pasadena",
+            "cou":"USA",
+            "attendance":"91,856",
+            "game":["Sweden","Brazil","0-1"]
+            
+            
+            
+           
+        }
+    },"final":{
+        "date":"July 17, 1994",
+        "staduim":"Rose Bowl, Pasadena",
+        "cou":"USA",
+        "attendance":" 94,194",
+        "game":["Brazil","Italy","0-0"],
+        "penalties":["Brazil win","3-2"]
+        
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    }

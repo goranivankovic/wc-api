@@ -1,0 +1,94 @@
+{
+
+              
+    "world2002":{
+        "quaterFinalls":{
+    
+            "firstGame":{
+            "date":"21 June 2002",
+            "staduim":"Stadium Ecopa, Shizuoka",
+            "cou":"Japan/Korea",
+            "attendance":"47,436",
+            "game":["England ","France","1-2"]
+            
+            
+           
+            },
+            "secondGame":{
+                "date":"21 June 2002",
+                "staduim":"Munsu Cup Stadium, Ulsan",
+                "cou":"Japan/Korea",
+                "attendance":"37,337",
+                "game":["Germany","United States","1-0"]
+                
+               
+                },
+    
+                "threedGame":{
+                    "date":"22 June 2002",
+                    "staduim":"Gwangju World Cup Stadium, Gwangju",
+                    "cou":"Japan/Korea",
+                    "attendance":"42,114",
+                    "game":["Spain","South Korea","0-0"],
+                    "penalties":["South Korea win","5-3"]
+                    
+                    },
+                "fourGame":{
+                        "date":"22 June 2002",
+                        "staduim":"Nagai Stadium, Osaka",
+                        "cou":"Japan/Korea",
+                        "attendance":"44,233",
+                        "game":["Senegal","Turkey","0-1"]
+                        
+                       
+                }
+           
+        },
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"25 June 2002",
+            "staduim":"Seoul World Cup Stadium, Seoul",
+            "cou":"Japan/Korea",
+            "attendance":"65,256",
+            "game":["Germany","South Korea","1-0"]
+            
+           
+           
+        },
+        "secondGame":{
+            "date":"26 June 2002",
+            "staduim":"Saitama Stadium, Saitama",
+            "cou":"Japan/Korea",
+            "attendance":"61,058",
+            "game":["Brazil","Turkey","1-0"]
+            
+            
+            
+           
+        }
+    },"final":{
+        "date":"30 June 2002",
+        "staduim":"International Stadium, Yokohama",
+        "cou":"Japan/Korea",
+        "attendance":"69,029",
+        "game":["Germany","Brazil","0-2"]
+       
+        
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    }

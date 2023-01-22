@@ -1,0 +1,84 @@
+{
+
+              
+"world1966":{
+    "quaterFinalls":{
+
+        "firstGame":{
+        "date":"23 July 1966",
+        "staduim":"Wembley Stadium, London",
+        "cou":"England",
+        "attendance":"90,584",
+        "game":["England ","Argentina","1-0"]
+       
+        },
+        "secondGame":{
+            "date":"23 July 1966",
+            "staduim":"Hillsborough Stadium, Sheffield",
+            "cou":"England",
+            "attendance":"40,007",
+            "game":["West Germany","Uruguay","4-0"]
+           
+            },
+
+            "threedGame":{
+                "date":"23 July 1966",
+                "staduim":"Roker Park, Sunderland",
+                "cou":"England",
+                "attendance":"26,844",
+                "game":["Soviet Union","HungaRY","2-1"]
+                
+                },
+            "fourGame":{
+                    "date":"23 July 1966",
+                    "staduim":"Goodison Park, Liverpool",
+                    "cou":"England",
+                    "attendance":"40,248",
+                    "game":["Portugal","North Korea","5-3"]
+                   
+            }
+       
+    },
+
+
+"semiFinalls":{
+
+    "firstGame":{
+        "date":"25 July 1966",
+        "staduim":"Goodison Park, Liverpool",
+        "cou":"England",
+        "attendance":"38,273",
+        "game":["West Germany","Soviet Union","2-1"]
+       
+    },
+    "secondGame":{
+        "date":"26 July 1966",
+        "staduim":"Wembley Stadium, London",
+        "cou":"England",
+        "attendance":"94,493",
+        "game":["England","Portugal","2-1"]
+        
+       
+    }
+},"final":{
+    "date":"30 July 1966",
+    "staduim":"Wembley Stadium, London",
+    "cou":"England",
+    "attendance":"96,924",
+    "game":["England","West Germany","2-2"],
+    "overtime":["Engaland Win","4-2"]
+    
+       
+
+}
+
+
+
+
+
+}
+
+
+
+
+}

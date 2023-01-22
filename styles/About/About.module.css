@@ -1,0 +1,523 @@
+.main {
+    padding-top: 20px;
+    min-height: 140vmin;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+
+
+
+}
+
+
+.headline {
+    min-height: 10vmin;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2.8vmin;
+    color: #0D5DCD;
+    /* border: 1px solid red; */
+}
+
+
+
+.secondDiv {
+
+    height: 40vmin;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+
+}
+
+
+
+.threddDiv {
+    height: 40vmin;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+.fourDiv {
+    height: 40vmin;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+
+
+
+
+.secondDivItemsOrange {
+    height: 90%;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 15px;
+    padding-left: 10px;
+    font-size: 2.1vmin;
+    background-color: #FFA500;
+    color: white;
+    
+}
+
+.secondDivItemsOrange:hover {
+    border: 2.5px solid #0D5DCD;
+    color: #FFA500;
+    background-color: white;
+    transition: 1200ms;
+}
+
+
+
+.secondDivItemsWhite {
+    height: 90%;
+    width: 40%;
+    border-radius: 10px;
+    border: 2.5px solid #0D5DCD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFA500;
+    font-size: 2.1vmin;
+    padding-right: 15px;
+    padding-left: 10px;
+  
+}
+
+
+.secondDivItemsWhite::after {
+    content: ' ';
+    display: flex;
+    align-self: flex-end;
+    height: 15px;
+    width: 15px;
+    background-color: #0D5DCD;
+    animation: blueBox 5s infinite ease-in-out;
+
+}
+
+
+.secondDivItemsWhite:hover {
+    border: 0px;
+    color: white;
+    background-color: #FFA500;
+    transition: 1200ms;
+}
+
+
+
+
+.icons {
+    font-size: 2.8vmin;
+}
+
+.secondDivItemsWhiteHeadline {
+    color: #0D5DCD;
+    font-size: 2.3vmin;
+
+}
+
+
+.prazanDiv2 {
+    height: 10vmin;
+    width: 100%;
+    /* border: 1px solid red; */
+
+
+}
+
+
+
+@keyframes blueBox {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    50% {
+        border-radius: 50%
+    }
+
+    100% {
+        transform: rotate(-360deg)
+    }
+
+}
+
+
+
+@media only screen and (max-width:992px) {
+
+    .secondDiv {
+    
+            height: 40vmin;
+            width: 65%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /* border: 1px solid red; */
+    
+        }
+    
+    
+    
+        .threddDiv {
+            height: 40vmin;
+            width: 65%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /* border: 1px solid red; */
+        }
+    
+        .fourDiv {
+            height: 40vmin;
+            width: 65%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /* border: 1px solid red; */
+        }
+    
+    
+    
+    
+        .secondDivItemsOrange {
+            height: 90%;
+            width: 43%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-right: 15px;
+            padding-left: 10px;
+            font-size: 2vmin;
+            background-color: #FFA500;
+            color: white;
+    
+        }
+  
+    
+    
+        .secondDivItemsWhite {
+            height: 90%;
+            width: 43%;
+            border-radius: 10px;
+            border: 2.5px solid #0D5DCD;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            color: #FFA500;
+            font-size: 2vmin;
+            padding-right: 15px;
+            padding-left: 10px;
+    
+        }
+
+
+
+                .icons {
+                    font-size: 2.7vmin;
+                }
+        
+                .secondDivItemsWhiteHeadline {
+                    color: #0D5DCD;
+                    font-size: 2.3vmin;
+        
+                }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:768px) {
+
+
+    .main {
+            padding-top: 20px;
+            min-height: 275vmin;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            cursor: pointer;
+    
+    
+    
+        }
+
+
+
+
+    .secondDiv {
+
+        height: 85vmin;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    
+       
+
+    }
+
+    .threddDiv {
+        height: 85vmin;
+        width: 85%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+
+
+        .fourDiv {
+        height: 85vmin;
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+
+
+
+    .secondDivItemsOrange {
+        height: 40vmin;
+        width: 60%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 15px;
+        padding-left: 10px;
+        font-size: 2.3vmin;
+        background-color: #FFA500;
+        color: white;
+        margin-top: 10px;
+       
+    }
+
+    .secondDivItemsOrange:hover {
+        border: 2.5px solid #0D5DCD;
+        color: #FFA500;
+        background-color: white;
+        transition: 1200ms;
+    }
+
+
+
+    .secondDivItemsWhite {
+        height: 40vmin;
+        width: 60%;
+        border-radius: 10px;
+        border: 2.5px solid #0D5DCD;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #FFA500;
+        font-size: 2.3vmin;
+        padding-right: 15px;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+
+    .secondDivItemsWhite::after {
+        content: ' ';
+        display: flex;
+        align-self: flex-end;
+        height: 15px;
+        width: 15px;
+        background-color: #0D5DCD;
+        animation: blueBox 5s infinite ease-in-out;
+
+    }
+
+
+    .secondDivItemsWhite:hover {
+        border: 0px;
+        color: white;
+        background-color: #FFA500;
+        transition: 1200ms;
+    }
+
+
+
+
+    .icons {
+        font-size: 3.1vmin;
+    }
+
+    .secondDivItemsWhiteHeadline {
+        color: #0D5DCD;
+        font-size: 2.5vmin;
+
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+.main {
+        padding-top: 20px;
+        min-height: 335vmin;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        cursor: pointer;
+
+
+
+    }
+
+
+
+
+    .secondDiv {
+
+        height: 105vmin;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+
+
+
+    }
+
+    .threddDiv {
+        height: 105vmin;
+        width: 85%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+
+    .fourDiv {
+        height: 105vmin;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+
+
+    .secondDivItemsOrange {
+        height: 50vmin;
+        width: 60%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 15px;
+        padding-left: 10px;
+        font-size: 2.8vmin;
+        background-color: #FFA500;
+        color: white;
+        margin-top: 10px;
+
+    }
+
+    .secondDivItemsOrange:hover {
+        border: 2.5px solid #0D5DCD;
+        color: #FFA500;
+        background-color: white;
+        transition: 1200ms;
+    }
+
+
+
+    .secondDivItemsWhite {
+        height: 50vmin;
+        width: 60%;
+        border-radius: 10px;
+        border: 2.5px solid #0D5DCD;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #FFA500;
+        font-size: 2.8vmin;
+        padding-right: 15px;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+
+    .secondDivItemsWhite::after {
+        content: ' ';
+        display: flex;
+        align-self: flex-end;
+        height: 15px;
+        width: 15px;
+        background-color: #0D5DCD;
+        animation: blueBox 5s infinite ease-in-out;
+
+    }
+
+
+    .secondDivItemsWhite:hover {
+        border: 0px;
+        color: white;
+        background-color: #FFA500;
+        transition: 1200ms;
+    }
+
+
+
+
+    .icons {
+        font-size: 3.3vmin;
+    }
+
+    .secondDivItemsWhiteHeadline {
+        color: #0D5DCD;
+        font-size: 2.9vmin;
+
+    }
+}
+
+
+

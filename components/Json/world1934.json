@@ -1,0 +1,78 @@
+{
+
+
+    "world1934":{
+        "quaterFinalls":{
+
+            "firstGame":{
+            "date":"31 May and 1 June 1934",
+            "staduim":"Stadio Giovanni Berta, Florence",
+            "cou":"Italy",
+            "attendance":"35,000",
+            "game":["Italy","Spain","1-1"],
+            "overtime":"Italy overtime winner"
+            },
+            "secondGame":{
+                "date":"31 May and  1934",
+                "staduim":"Stadio Littoriale, Bologna",
+                "cou":"Italy",
+                "attendance":"23,000",
+                "game":["Austria","Hungary","2-1"]
+               
+                },
+
+                "threedGame":{
+                    "date":"31 May and  1934",
+                    "staduim":"Stadio Benito Mussolini, Turin",
+                    "cou":"France",
+                    "attendance":"12,000",
+                    "game":["Czechoslovakia","Switzerland","3-2"]
+                    
+                    },
+                "fourGame":{
+                        "date":"31 May and 1934",
+                        "staduim":"Stadio San Siro, Milan",
+                        "cou":"Italy",
+                        "attendance":"3,000",
+                        "game":["Germany","Sweden","2-1"]
+                       
+                }
+           
+        },
+
+
+    "semiFinalls":{
+
+        "firstGame":{
+            "date":"3 Jun 1934",
+            "staduim":"Stadio San Siro, Milan",
+            "cou":"Italy",
+            "attendance":"3,000",
+            "game":["Italy","Austria","1-0"]
+           
+        },
+        "secondGame":{
+            "date":"3 Jun 1934",
+            "staduim":"Stadio Nazionale PNF, Rome",
+            "cou":"Italy",
+            "attendance":"15,000",
+            "game":["Czechoslovakia","Germany","3-1"]
+           
+        }
+    },"final":{
+        "date":"1 June 1934",
+        "staduim":"Stadio Nazionale PNF, Rome",
+        "cou":"Italy",
+        "attendance":"55,00",
+        "game":["Italy","Czechoslovakia","1-1"],
+        "overtime":"Italy overtime winner"
+           
+
+    }
+   
+
+
+    }
+
+
+}

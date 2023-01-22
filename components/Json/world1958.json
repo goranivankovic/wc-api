@@ -1,0 +1,82 @@
+{
+
+       
+"world1958":{
+    "quaterFinalls":{
+
+        "firstGame":{
+        "date":"19 June  1958",
+        "staduim":"Ullevi, Gothenburg",
+        "cou":"Sweden",
+        "attendance":"25,923",
+        "game":["Brazil","Wales","1-0"]
+       
+        },
+        "secondGame":{
+            "date":"19 June  1958",
+            "staduim":"SIdrottsparken, Norrköping",
+            "cou":"Sweden",
+            "attendance":"11,800",
+            "game":["France","Northern Ireland","4-0"]
+           
+            },
+
+            "threedGame":{
+                "date":"19 June  1958",
+                "staduim":"Råsunda Stadium, Solna",
+                "cou":"Sweden",
+                "attendance":"31,900",
+                "game":["Sweden","Soviet Union","2-0"]
+                
+                },
+            "fourGame":{
+                    "date":"19 June  1958",
+                    "staduim":"Malmö Stadion, Malmö",
+                    "cou":"Sweden",
+                    "attendance":"20,055",
+                    "game":["West Germany","Yugoslavia","1-0"]
+                   
+            }
+       
+    },
+
+
+"semiFinalls":{
+
+    "firstGame":{
+        "date":"24 June 1958",
+        "staduim":"Ullevi, Gothenburg",
+        "cou":"Sweden",
+        "attendance":"49,471",
+        "game":["Sweden","West Germany","3-1"]
+       
+    },
+    "secondGame":{
+        "date":"24 June 1958",
+        "staduim":"Råsunda Stadium, Solna",
+        "cou":"Sweden",
+        "attendance":"27,100",
+        "game":["Brzil","France","5-2"]
+        
+       
+    }
+},"final":{
+    "date":"29 June 1958",
+    "staduim":"Råsunda Stadium, Solna",
+    "cou":"Sweden",
+    "attendance":"49,737",
+    "game":["Brazil","Sweden","5-2"]
+    
+       
+
+}
+
+
+
+
+
+}
+
+
+    
+}

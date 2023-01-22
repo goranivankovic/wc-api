@@ -1,0 +1,48 @@
+{
+
+       
+    "world1930":{
+       
+           
+        
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"26 July 1930",
+            "staduim":"Estadio Centenario, Montevideo",
+            "cou":"Uruguay",
+            "attendance":"72,886",
+            "game":["Argentina","United States","6-1"]
+           
+        },
+        "secondGame":{
+            "date":"27 July 1930",
+            "staduim":"Estadio Centenario, Montevideo",
+            "cou":"Uruguay",
+            "attendance":"79,867",
+            "game":["Uruguay","Yugoslavia","6-1"]
+            
+           
+        }
+    },"final":{
+        "date":"30 July 1930",
+        "staduim":"Estadio Centenario, Montevideo",
+        "cou":"Uruguay",
+        "attendance":"68,346",
+        "game":["Uruguay","Argentina","4-2"]
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+        
+    }

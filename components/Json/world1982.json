@@ -1,0 +1,49 @@
+{
+
+       
+    "world1982":{
+       
+           
+        
+    
+    
+    "semiFinalls":{
+    
+        "firstGame":{
+            "date":"8 July  1982",
+            "staduim":"Camp Nou, Barcelona",
+            "cou":"Spain",
+            "attendance":"50,000",
+            "game":["Poland","Italy","2-0"]
+           
+        },
+        "secondGame":{
+            "date":"8 July  1982",
+            "staduim":"Ramón Sánchez Pizjuán, Seville",
+            "cou":"Spain",
+            "attendance":"79,867",
+            "game":["West Germany ","France","3-3"],
+            "penalties":["West Germany win","5-3"]
+            
+           
+        }
+    },"final":{
+        "date":"11 July 1982",
+        "staduim":"Estadio Santiago Bernabéu, Madrid",
+        "cou":"Spain",
+        "attendance":"90,000",
+        "game":["Italy","West Germany","3-1"]
+        
+           
+    
+    }
+    
+    
+    
+    
+    
+    }
+    
+    
+        
+    }
