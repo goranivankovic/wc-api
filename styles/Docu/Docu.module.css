@@ -15,7 +15,7 @@
 
 .headline {
     padding: 1em;
-   min-width: 55rem;
+   min-width: 45rem;
     display: flex;
     align-items: center;
     justify-content:flex-start;
@@ -35,7 +35,7 @@
 
 .firstDiv {
 padding: 1em;
-    min-width: 55rem;
+    min-width: 45rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -59,7 +59,7 @@ font-size: 1.2rem;
 .secondDiv { 
   
     padding: 1em;
-        min-width: 55rem;
+        min-width: 45rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -81,7 +81,7 @@ font-size: 1.2rem;
 
 .threedDiv {
        padding: 1em;
-        min-width: 55rem;
+        min-width: 45rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -123,10 +123,10 @@ font-size: 1.2rem;
 
 
 
-@media (max-width:55rem) {
+@media (max-width:45rem) {
     .headline {
             padding: 1em;
-            min-width: 40rem;
+            min-width:85%;
             display: flex;
             align-items: center;
             justify-content: flex-start;
@@ -230,7 +230,7 @@ font-size: 1.2rem;
 @media (max-width:40rem) {
     .headline {
         padding: 1em;
-        min-width: 90%;
+        min-width: 85%;
         display: flex;
         align-items: center;
         justify-content: flex-start;

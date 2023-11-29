@@ -16,7 +16,7 @@ background-image: url('../../images/Pro.png');
 
 .headline {
     padding: 1em;
-    min-width: 55rem;
+    min-width: 45rem;
     display: flex;
     align-items: center;
     font-size: 1.3rem;
@@ -29,7 +29,7 @@ background-image: url('../../images/Pro.png');
 
 .firstDiv {
 
-    min-width: 55rem;
+    min-width: 45rem;
     display: flex;
     color: #FFA500;
     font-size: 1.15rem;
@@ -43,7 +43,7 @@ background-image: url('../../images/Pro.png');
 
 .secondDiv {
 
-    min-width: 55rem;
+    min-width: 45rem;
 
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@ background-image: url('../../images/Pro.png');
 }
 
 .threedDiv {
-    min-width: 55rem;
+    min-width: 45rem;
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@ background-image: url('../../images/Pro.png');
 
 .fourdDiv {
     padding: 1em;
-    min-width: 55rem;
+    min-width: 45rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -98,4 +98,204 @@ background-image: url('../../images/Pro.png');
 
 
 
-@media only screen and (max-width: 768px) {}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 45rem) {
+    .headline {
+        padding: 1em;
+        min-width: 40rem;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        color: var(--blue);
+
+
+    }
+
+
+
+    .firstDiv {
+
+        min-width: 40rem;
+        display: flex;
+        color: #FFA500;
+        font-size: 1rem;
+        align-items: center;
+
+        padding: 1em;
+
+
+
+    }
+
+
+    .secondDiv {
+
+        min-width: 40rem;
+
+        display: flex;
+        flex-direction: column;
+        font-size: .95rem;
+        justify-content: space-around;
+        padding: 1em;
+
+
+
+
+    }
+
+    .secondDiv div {
+        padding: .5em
+    }
+
+    .threedDiv {
+        font-size: .95rem;
+        min-width: 40rem;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+
+    }
+
+
+    .fourdDiv {
+        font-size: .95rem;
+        padding: 1em;
+        min-width: 40rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+
+    }
+
+    .buttonDiv {
+        padding: .8em;
+        border-radius: .6em;
+        background-color: #0D5DCD;
+        color: white;
+        font-size: .9rem;
+        min-width: 9rem;
+        cursor: pointer;
+        border: none;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 40rem) {
+    .headline {
+        padding: .5em;
+        min-width: 85%;
+        display: flex;
+        align-items: center;
+        font-size: 1.1rem;
+        color: var(--blue);
+
+
+    }
+
+
+
+    .firstDiv {
+
+        min-width: 85%;
+        display: flex;
+        color: #FFA500;
+        font-size: .9rem;
+        align-items: center;
+
+        padding: .5em;
+
+
+
+    }
+
+
+    .secondDiv {
+
+        min-width: 85%;
+
+        display: flex;
+        flex-direction: column;
+        font-size: .9rem;
+        justify-content: space-around;
+        padding: .6em;
+        text-align: left;
+
+
+
+
+    }
+
+    .secondDiv div {
+        padding: .5em
+    }
+
+    .threedDiv {
+        font-size: .9rem;
+        min-width: 85%;
+        padding: .5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+
+    }
+
+
+    .fourdDiv {
+        font-size: .9rem;
+        padding: .5em;
+        min-width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+
+    }
+
+    .buttonDiv {
+        padding: .8em;
+        border-radius: .6em;
+        background-color: #0D5DCD;
+        color: white;
+        font-size: .9rem;
+        min-width: 9rem;
+        cursor: pointer;
+        border: none;
+    }
+
+
+}
+
