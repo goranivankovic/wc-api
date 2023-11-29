@@ -1,68 +1,112 @@
 .main {
-    min-height: 100vmin;
     width: 100%;
-    background-image: url('../../images/Pricing.png');
-    background-repeat: no-repeat;
-    background-origin: cover;
-    background-size: 100% 100%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
-    /* border: 1px solid red; */
+
 
 }
 
 
 
+.coomentDiv{
+    margin-top: 1em;
+    max-width:55rem;
+    padding:2em;
+
+
+    overflow: hidden;
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  /* border: 2px solid red; */
+
+}
+
+
+
+.coomentDiv div{
+   color: var(--grey);
+    font-size: 1rem;
+      border-bottom-right-radius: 1em ;
+        border-top-left-radius: 1em;
+        min-height: 2.5rem;
+
+        padding: 2em;
+        min-width: 10rem;
+        margin-left: 2em;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+   animation: slider 25s ease infinite;       
+      
+}
+.iconsColor{
+    color: var(--orange);
+}
+
+
+
+
 .headline {
-    min-height: 10vmin;
-    width: 100%;
+    color: var(--grey);
+   padding: 2em;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-font-size: 3.1vmin;
-    color: #0D5DCD;
+font-size: 1.3rem;
+
     /* border: 1px solid red; */
+
 }
 
 
 
 .firstDiv {
-    min-height: 55vmin;
-    width: 60%;
+   
+    min-width: 55rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-right: 15px;
+  
 
-    /* border: 1px solid red; */
-}
+ /* border: 2px solid blue; */
+
+} 
 
 
 .firstDivOne {
-    min-height: 42vmin;
-    width: 35%;
-    border-radius: 10px;
-    background-color: white;
+    padding: 1em;
+    width: 30%;
+    border-radius: .8em;
+    border: .2em solid var(--orange);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    /* background-color: var(--white); */
 
 }
 
+.firstDivOne div{
+    padding: .4em;
+}
+
 .firstDivHeadline {
-    color: #0D5DCD;
-    font-size: 2.6vmin;
+    color:var(--orange);
+    font-size: 1.1rem;
 
 }
 
 .firstDivButton {
-   padding: 10px;
-    width: 20vmin;
-    font-size: 1.5vmin;
+   padding: .8em;
+    width:12rem;
+    font-size: .9rem;
     background-color: #0D5DCD;
     border: transparent;
     color: white;
@@ -73,42 +117,76 @@ font-size: 3.1vmin;
 
 .firstDivText {
     width: 85%;
-    font-size: 2.1vmin;
+    font-size:1rem;
     /* border: 1px solid red; */
 
 }
 
 .firstDivTwo {
-    min-height: 42vmin;
-    width: 35%;
-    border-radius: 10px;
-    background-color: white;
+
+   padding: 1em;
+    width: 30%;
+    border-radius: .8em;
+    border: .2em solid var(--orange);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
+.firstDivTwo div {
+    padding: .4em;
+}
+
 .secondDiv {
-    min-height: 20vmin;
-    width: 93%;
+   padding: 1em;
+   min-width: 55rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 15px;
-    font-size: 2.2vmin;
-    color: white;
+   
+    font-size: 1.1rem;
+    color: var(--grey);
+  
     /* border: 1px solid red; */
+
 }
 
 
 
 
 .prazanDiv {
-    height: 10vmin;
-    width: 100%;
+    padding: 2em;
+    width: 50%;
     /* border: 5px solid green; */
 }
+
+
+
+
+
+
+
+
+@keyframes slider {
+    0% {
+        transform: translateX(-125rem)
+    }
+
+    50% {
+        transform: translateX(0rem)
+    }
+
+    100% {
+        transform: translateX(125rem)
+    }
+
+}
+
+
+
+
+
 
 
 
@@ -131,383 +209,694 @@ font-size: 3.1vmin;
 
 
 
-@media only screen and (max-width:1200px) {
+@media (max-width:55rem) {
+.coomentDiv {
+        margin-top: 1em;
+        max-width: 40rem;
+        padding: 2em;
 
 
-    .firstDiv {
-            min-height: 55vmin;
-            width: 60%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            padding-right: 15px;
-    
-           /* border: 1px solid blue; */
-        }
-    
-    
-        .firstDivOne {
-            min-height: 42vmin;
-            width: 40%;
-            border-radius: 10px;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-    
-        }
-    
-        .firstDivHeadline {
-            color: #0D5DCD;
-            font-size: 2.6vmin;
-    
-        }
-    
-        .firstDivButton {
-            padding: 10px;
-            width: 20vmin;
-            font-size: 1.5vmin;
-            background-color: #0D5DCD;
-            border: transparent;
-            color: white;
-            animation: buttonRadius 5s infinite ease-in-out;
-        }
-    
-        .firstDivText {
-            width: 85%;
-            font-size: 2.1vmin;
-            /* border: 1px solid red; */
-    
-        }
-    
-        .firstDivTwo {
-            min-height: 42vmin;
-            width: 40%;
-            border-radius: 10px;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-        }
-    
-        .secondDiv {
-            min-height: 20vmin;
-            width: 93%;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            padding-right: 15px;
-            font-size: 2.2vmin;
-            color: white;
-            /* border: 1px solid red; */
-        }
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
 
-}
+ 
+
+    }
 
 
 
+    .coomentDiv div {
+        color: var(--grey);
+        font-size: .9rem;
 
 
-@media only screen and (max-width:992px) {
+
+        border-bottom-right-radius: 1em;
+        border-top-left-radius: 1em;
+        min-height: 2.5rem;
+
+        padding: 2em;
+        min-width: 10rem;
+        margin-left: 2em;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        animation: slider 25s ease infinite;
+
+    }
+
+    .iconsColor {
+        color: var(--orange);
+    }
+
+
+
 
     .headline {
-            min-height: 10vmin;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            font-size: 2.9vmin;
-            color: #0D5DCD;
-            /* border: 1px solid red; */
-        }
+        color: var(--grey);
+        padding: 2em;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.1rem;
+    
+
+    }
+
 
 
     .firstDiv {
-        min-height: 55vmin;
-        width: 80%;
+
+        min-width: 40rem;
         display: flex;
         align-items: center;
         justify-content: space-around;
         padding-right: 15px;
+
+
 
 
     }
 
 
     .firstDivOne {
-        min-height: 42vmin;
-        width: 34%;
-        border-radius: 10px;
-        background-color: white;
+        padding: 1em;
+        width: 35%;
+        border-radius: .8em;
+        border: .2em solid var(--orange);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        /* background-color: var(--white); */
 
     }
 
+    .firstDivOne div {
+        padding: .4em;
+    }
+
     .firstDivHeadline {
-        color: #0D5DCD;
-        font-size: 2.6vmin;
+        color: var(--orange);
+        font-size: 1rem;
 
     }
 
     .firstDivButton {
-        padding: 10px;
-        width: 20vmin;
-        font-size: 1.5vmin;
+        padding: .8em;
+        width: 12rem;
+        font-size: .9rem;
         background-color: #0D5DCD;
         border: transparent;
         color: white;
         animation: buttonRadius 5s infinite ease-in-out;
-    }
-
-    .firstDivText {
-        width: 85%;
-        font-size: 2.1vmin;
-        /* border: 1px solid red; */
-
-    }
-
-    .firstDivTwo {
-        min-height: 42vmin;
-        width: 34%;
-        border-radius: 10px;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .secondDiv {
-        min-height: 20vmin;
-        width: 93%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding-right: 15px;
-        font-size: 2.2vmin;
-        color: white;
-        /* border: 1px solid red; */
-    }
-
-}
-
-
-
-
-@media only screen and (max-width:768px) {
-
-    .main {
-            min-height: 140vmin;
-            width: 100%;
-            background-image: url('../../images/Pricing.png');
-            background-repeat: no-repeat;
-            background-origin: cover;
-            background-size: 100% 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            cursor: pointer;
-            /* border: 1px solid red; */
-    
-        }
-
-    .headline {
-        min-height: 10vmin;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 2.9vmin;
-        color: #0D5DCD;
-        /* border: 1px solid red; */
-    }
-
-
-    .firstDiv {
-        min-height: 90vmin;
-        width: 80%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: space-around;
-        padding-right: 15px;
-
-
-    }
-
-
-    .firstDivOne {
-        min-height: 42vmin;
-        width: 50%;
-        border-radius: 10px;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-
-    }
-
-    .firstDivHeadline {
-        color: #0D5DCD;
-        font-size: 2.6vmin;
-
-    }
-
-    .firstDivButton {
-        padding: 10px;
-        width: 30vmin;
-        font-size: 1.7vmin;
-        background-color: #0D5DCD;
-        border: transparent;
-        color: white;
-        animation: buttonRadius 5s infinite ease-in-out;
-    }
-
-    .firstDivText {
-        width: 85%;
-        font-size: 2.3vmin;
-        /* border: 1px solid red; */
-
-    }
-
-    .firstDivTwo {
-        min-height: 42vmin;
-        width: 50%;
-        border-radius: 10px;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .secondDiv {
-        min-height: 20vmin;
-        width: 93%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding-right: 15px;
-        font-size: 2.2vmin;
-        color: white;
-        /* border: 1px solid red; */
-    }
-
-}
-
-
-
-
-
-
-@media only screen and (max-width:600px) {
-
-    .main {
-        min-height: 155vmin;
-        width: 100%;
-        background-image: url('../../images/Pricing.png');
-        background-repeat: no-repeat;
-        background-origin: cover;
-        background-size: 100% 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
         cursor: pointer;
+
+    }
+
+    .firstDivText {
+        width: 85%;
+        font-size: .9rem;
         /* border: 1px solid red; */
 
     }
 
+    .firstDivTwo {
+
+        padding: 1em;
+        width: 35%;
+        border-radius: .8em;
+        border: .2em solid var(--orange);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .firstDivTwo div {
+        padding: .4em;
+    }
+
+    .secondDiv {
+        padding: 1em;
+        min-width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 15px;
+        font-size: 1rem;
+        color: var(--grey);
+
+        margin-bottom: 1em;
+
+     
+
+    }
+
+
+
+
+    .prazanDiv {
+        padding: 2em;
+        width: 50%;
+        /* border: 5px solid green; */
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:40rem) {
+    .coomentDiv {
+        margin-top: 1em;
+        max-width: 90%;
+        padding: 1em;
+
+
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+
+    }
+
+
+
+    .coomentDiv div {
+        color: var(--grey);
+        font-size: .9rem;
+
+
+
+        border-bottom-right-radius: 1em;
+        border-top-left-radius: 1em;
+        min-height: 2.5rem;
+
+        padding: 2em;
+        min-width: 10rem;
+        margin-left: 2em;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        animation: slider 25s ease infinite;
+
+    }
+
+    .iconsColor {
+        color: var(--orange);
+    }
+
+
+
+
     .headline {
-        min-height: 10vmin;
-        width: 100%;
+        color: var(--grey);
+        padding: 1em;
+        width: 90%;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        font-size: 3.1vmin;
-        color: #0D5DCD;
-        /* border: 1px solid red; */
+        font-size: 1.1rem;
+ 
+
     }
+
 
 
     .firstDiv {
-        min-height: 105vmin;
-        width: 85%;
+
+        min-width: 90%;
         display: flex;
-        align-items: center;
         flex-direction: column;
+        align-items: center;
         justify-content: space-around;
-        padding-right: 15px;
+        padding-right: 0px;
+
 
 
     }
 
 
     .firstDivOne {
-        min-height: 50vmin;
-        width: 60%;
-        border-radius: 10px;
-        background-color: white;
+        padding: 1em;
+        width: 45%;
+        border-radius: .8em;
+        border: .2em solid var(--orange);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
 
+        margin-bottom: 1em;
+        /* background-color: var(--white); */
+
+    }
+
+    .firstDivOne div {
+        padding: .4em;
     }
 
     .firstDivHeadline {
-        color: #0D5DCD;
-        font-size: 2.8vmin;
+        color: var(--orange);
+        font-size: 1rem;
 
     }
 
     .firstDivButton {
-        padding: 7px;
-        width: 25vmin;
-        font-size: 2vmin;
+        padding: .8em;
+        width: 10rem;
+        font-size: .9rem;
         background-color: #0D5DCD;
         border: transparent;
         color: white;
         animation: buttonRadius 5s infinite ease-in-out;
+        cursor: pointer;
+
     }
 
     .firstDivText {
         width: 85%;
-        font-size: 2.8vmin;
+        font-size: .9rem;
         /* border: 1px solid red; */
 
     }
 
     .firstDivTwo {
-        min-height: 50vmin;
-        width: 60%;
-        border-radius: 10px;
-        background-color: white;
+
+        padding: 1em;
+        width: 45%;
+        border-radius: .8em;
+        border: .2em solid var(--orange);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+
+        margin-bottom: 1em;
+    }
+
+    .firstDivTwo div {
+        padding: .4em;
     }
 
     .secondDiv {
-        min-height: 20vmin;
-        width: 93%;
+        padding: 1em;
+        max-width: 90%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         padding-right: 15px;
-        font-size: 2.7vmin;
-        color: white;
-        /* border: 1px solid red; */
+        font-size: .9rem;
+        color: var(--grey);
+
+        margin-bottom: 1em;
+
+
+
     }
+
+
+
+
+    .prazanDiv {
+        padding: 2em;
+        width: 70%;
+        /* border: 5px solid green; */
+    }
+
 
 }
 
 
+
+
+
+
+
+
+
+@media (max-width:500px) {
+    .coomentDiv {
+        margin-top: 1em;
+        max-width: 90%;
+        padding: .7em;
+
+
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+
+    }
+
+
+
+    .coomentDiv div {
+        color: var(--grey);
+        font-size: .85rem;
+
+
+
+        border-bottom-right-radius: 1em;
+        border-top-left-radius: 1em;
+        min-height: 2rem;
+
+        padding: 2em;
+        min-width: 10rem;
+        margin-left: 2em;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        animation: slider 25s ease infinite;
+
+    }
+
+    .iconsColor {
+        color: var(--orange);
+    }
+
+
+
+
+    .headline {
+        color: var(--grey);
+        padding: 1em;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1rem;
+
+
+    }
+
+
+
+    .firstDiv {
+
+        min-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-right: 0px;
+
+
+
+
+    }
+
+
+    .firstDivOne {
+        padding: 1em;
+        width: 60%;
+        border-radius: .8em;
+        border: .2em solid var(--orange);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        margin-bottom: 1em;
+        /* background-color: var(--white); */
+
+    }
+
+    .firstDivOne div {
+        padding: .4em;
+    }
+
+    .firstDivHeadline {
+        color: var(--orange);
+        font-size: 1rem;
+
+    }
+
+    .firstDivButton {
+        padding: .8em;
+        width: 10rem;
+        font-size: .9rem;
+        background-color: #0D5DCD;
+        border: transparent;
+        color: white;
+        animation: buttonRadius 5s infinite ease-in-out;
+        cursor: pointer;
+
+    }
+
+    .firstDivText {
+        width: 85%;
+        font-size: .9rem;
+        /* border: 1px solid red; */
+
+    }
+
+    .firstDivTwo {
+
+        padding: 1em;
+        width: 60%;
+        border-radius: .8em;
+        border: .2em solid var(--orange);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        margin-bottom: 1em;
+    }
+
+    .firstDivTwo div {
+        padding: .4em;
+    }
+
+    .secondDiv {
+        padding: 1em;
+        max-width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 15px;
+        text-align: right;
+        font-size: .9rem;
+        color: var(--grey);
+
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+
+
+    .prazanDiv {
+        padding: 2em;
+        width: 70%;
+        /* border: 5px solid green; */
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:389px) {
+    .coomentDiv {
+        margin-top: 1em;
+        max-width: 90%;
+        padding: .7em;
+
+
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+
+    }
+
+
+
+    .coomentDiv div {
+        color: var(--grey);
+        font-size: .85rem;
+
+
+
+        border-bottom-right-radius: 1em;
+        border-top-left-radius: 1em;
+        min-height: 2rem;
+
+        padding: 2em;
+        min-width: 10rem;
+        margin-left: 2em;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+
+        animation: slider 25s ease infinite;
+
+    }
+
+    .iconsColor {
+        color: var(--orange);
+    }
+
+
+
+
+    .headline {
+        color: var(--grey);
+        padding: 1em;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1rem;
+
+
+    }
+
+
+
+    .firstDiv {
+
+        min-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-right: 0px;
+
+
+
+
+    }
+
+
+    .firstDivOne {
+        padding: 1em;
+        width: 65%;
+        border-radius: .8em;
+        border: .2em solid var(--orange);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        margin-bottom: 1em;
+        /* background-color: var(--white); */
+
+    }
+
+    .firstDivOne div {
+        padding: .4em;
+    }
+
+    .firstDivHeadline {
+        color: var(--orange);
+        font-size: 1rem;
+
+    }
+
+    .firstDivButton {
+        padding: .8em;
+        width: 10rem;
+        font-size: .9rem;
+        background-color: #0D5DCD;
+        border: transparent;
+        color: white;
+        animation: buttonRadius 5s infinite ease-in-out;
+        cursor: pointer;
+
+    }
+
+    .firstDivText {
+        width: 85%;
+        font-size: .9rem;
+        /* border: 1px solid red; */
+
+    }
+
+    .firstDivTwo {
+
+        padding: 1em;
+        width: 65%;
+        border-radius: .8em;
+        border: .2em solid var(--orange);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        margin-bottom: 1em;
+    }
+
+    .firstDivTwo div {
+        padding: .4em;
+    }
+
+    .secondDiv {
+        padding: 1em;
+        max-width: 90%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 15px;
+        text-align: right;
+        font-size: .9rem;
+        color: var(--grey);
+
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+
+
+    .prazanDiv {
+        padding: 2em;
+        width: 70%;
+        /* border: 5px solid green; */
+    }
+
+
+}

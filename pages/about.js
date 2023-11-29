@@ -21,7 +21,13 @@ function About() {
 
 
 
-     <div className={aboutStyle.headline}>WELCOME TO WORLD-CUP-API</div>
+     <div className={aboutStyle.headline}>
+      <div>WELCOME TO WORLD-CUP-API</div>
+       <div>Find the complete list of features on our documentation.</div>
+      <div>In order to provide you with a quality API.</div>
+    
+
+     </div>
 
 
 
@@ -29,7 +35,7 @@ function About() {
 
      <div className={aboutStyle.secondDiv}>
 
-         <div className={aboutStyle.secondDivItemsWhite}>  
+         <div className={aboutStyle.secondDivItem1}>  
 
          <div className={aboutStyle.icons}><BiFootball /></div>
          <div className={aboutStyle.secondDivItemsWhiteHeadline}>  COVERAGE</div>
@@ -41,7 +47,7 @@ function About() {
          </div>
 
 
-         <div className={aboutStyle.secondDivItemsOrange}> 
+         <div className={aboutStyle.secondDivItem2}> 
 
          <div className={aboutStyle.icons}><BsCodeSlash /></div>
          <div className={aboutStyle.secondDivItemsWhiteHeadline}>EASY INTEGRATION </div>
@@ -53,19 +59,8 @@ function About() {
           </div>
 
 
-          </div>
-
-
-
- 
-       {/* Threed Div */} 
-
-
-     <div className={aboutStyle.threddDiv}> 
-
-
-     
-        <div className={aboutStyle.secondDivItemsOrange}>
+             
+        <div className={aboutStyle.secondDivItem1}>
 
         <div className={aboutStyle.icons}><BsClockHistory /></div>
          <div className={aboutStyle.secondDivItemsWhiteHeadline}>HISTORICAL DATA </div>
@@ -77,7 +72,21 @@ function About() {
             </div>
 
 
-        <div className={aboutStyle.secondDivItemsWhite}> 
+          </div>
+
+
+
+ 
+       {/* Threed Div */} 
+
+
+     <div className={aboutStyle.secondDiv}> 
+
+
+  
+
+
+        <div className={aboutStyle.secondDivItem2}> 
 
         <div className={aboutStyle.icons}><AiOutlineBarChart /></div>
          <div className={aboutStyle.secondDivItemsWhiteHeadline}>MATCH ODDS</div>
@@ -85,25 +94,12 @@ function About() {
          <div> pre-match odds </div>
          <div>between one , and </div>
          <div>days before the match.</div>
-
          </div>
 
 
-     </div>
 
-
-
-
-
-        {/* Four Div */}
- 
-     
-     <div className={aboutStyle.fourDiv}> 
-
-
-
-
-          <div className={aboutStyle.secondDivItemsWhite}> 
+         
+          <div className={aboutStyle.secondDivItem1}> 
 
         <div className={aboutStyle.icons}><FiMail /></div>
          <div className={aboutStyle.secondDivItemsWhiteHeadline}>SUPPORT 24/7</div>
@@ -120,7 +116,7 @@ function About() {
 
 
      
-        <div className={aboutStyle.secondDivItemsOrange}>
+        <div className={aboutStyle.secondDivItem2}>
 
         <div className={aboutStyle.icons}><AiOutlineClockCircle /></div>
          <div className={aboutStyle.secondDivItemsWhiteHeadline}>SCORE</div>
@@ -132,10 +128,14 @@ function About() {
             </div>
 
 
-   
+
+         
+
 
 
      </div>
+
+
 
 
 

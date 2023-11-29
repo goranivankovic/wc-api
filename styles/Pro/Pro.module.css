@@ -1,5 +1,5 @@
 .main {
-    min-height: 100vmin;
+    min-height: 100dvh;
     width: 100%;
 background-image: url('../../images/Pro.png');
     background-repeat: no-repeat;
@@ -8,54 +8,64 @@ background-image: url('../../images/Pro.png');
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     cursor: pointer;
 
 }
 
 
-
 .headline {
-    min-height: 10vmin;
-    width: 75%;
+    padding: 1em;
+    min-width: 55rem;
     display: flex;
     align-items: center;
-    font-size: 3.4vmin;
-    color: #0D5DCD;
+    font-size: 1.3rem;
+    color: var(--blue);
     /* border: 1px solid red; */
+
 }
 
 
 
 .firstDiv {
-    min-height: 7vmin;
-    width: 75%;
+
+    min-width: 55rem;
     display: flex;
     color: #FFA500;
-    font-size: 3vmin;
+    font-size: 1.15rem;
     align-items: center;
-    /* border: 1px solid red; */
+
+    padding: 1em;
+
+
 }
 
 
 .secondDiv {
-    min-height: 50vmin;
-    width: 75%;
-    padding-right: 15px;
+
+    min-width: 55rem;
+
     display: flex;
     flex-direction: column;
-    font-size: 2.5vmin;
+    font-size: 1rem;
     justify-content: space-around;
-    /* border: 1px solid red; */
+    padding: 1em;
+
+
+}
+
+.secondDiv div {
+    padding: .5em
 }
 
 .threedDiv {
-    height: 15vmin;
-    width: 75%;
+    min-width: 55rem;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     /* border: 1px solid blue; */
+
 }
 
 
@@ -64,21 +74,22 @@ background-image: url('../../images/Pro.png');
 
 
 .fourdDiv {
-    min-height: 7vmin;
-    width: 75%;
+    padding: 1em;
+    min-width: 55rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     /* border: 1px solid turquoise; */
+
 }
 
 .buttonDiv {
-    padding: 8px;
-    border-radius: 6px;
+    padding: .8em;
+    border-radius: .6em;
     background-color: #0D5DCD;
     color: white;
-    font-size: 1.9vmin;
-    width: 30vmin;
+    font-size: .95rem;
+    min-width: 10rem;
     cursor: pointer;
     border: none;
 }
@@ -87,200 +98,4 @@ background-image: url('../../images/Pro.png');
 
 
 
-
-
-@media only screen and (max-width: 768px) {
-
-    .main {
-        height: 100vmin;
-        width: 100%;
-        background-image: url('../../images/Pro.png');
-        background-repeat: no-repeat;
-        background-origin: cover;
-        background-size: 100% 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        cursor: pointer;
-
-    }
-
-
-
-    .headline {
-        height: 10vmin;
-        width: 80%;
-        display: flex;
-        align-items: center;
-        font-size: 3.3vmin;
-        color: #0D5DCD;
-
-    }
-
-    .firstDiv {
-        height: 7vmin;
-        width: 80%;
-        display: flex;
-        color: #FFA500;
-        font-size: 2.5vmin;
-        align-items: center;
-
-    
-
-    }
-
-
-    .secondDiv {
-        height: 55vmin;
-        width: 80%;
-        padding-right: 15px;
-        display: flex;
-        flex-direction: column;
-        font-size: 2.4vmin;
-        justify-content: space-around;
-
-   
-
-    }
-
-    .threedDiv {
-        height: 10vmin;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-
-     
-
-    }
-
-
-
-
-
-    .fourdDiv {
-        height: 7vmin;
-        width: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-
-
-
-
-    }
-
-  
-
-
-
-}
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-
-    .main {
-        height: 100vmin;
-        width: 100%;
-        background-image: url('../../images/Pro.png');
-        background-repeat: no-repeat;
-        background-origin: cover;
-        background-size: 100% 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        cursor: pointer;
-
-    }
-
-
-
-    .headline {
-        height: 10vmin;
-        width: 85%;
-        display: flex;
-        align-items: center;
-        font-size: 3.6vmin;
-        color: #0D5DCD;
-
-    }
-
-    .firstDiv {
-        height: 12vmin;
-        width: 85%;
-        display: flex;
-        color: #FFA500;
-        font-size: 2.8vmin;
-        align-items: center;
-
-
-
-    }
-
-
-    .secondDiv {
-        height: 60vmin;
-        width: 80%;
-        padding-right: 15px;
-        display: flex;
-        flex-direction: column;
-        font-size: 3.2vmin;
-        font-weight: bold;
-        justify-content: space-around;
-
-
-
-    }
-
-    .threedDiv {
-        height: 10vmin;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-
-
-
-    }
-
-
-
-
-
-    .fourdDiv {
-        height: 7vmin;
-        width: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-
-
-
-
-    }
-
-
-        .buttonDiv {
-            padding: 7px;
-            border-radius: 6px;
-            background-color: #0D5DCD;
-            color: white;
-            font-size: 1.9vmin;
-            width: 30vmin;
-        }
-
-
-
-
-
-}
-
-
+@media only screen and (max-width: 768px) {}

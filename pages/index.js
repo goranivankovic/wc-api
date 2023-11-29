@@ -20,16 +20,17 @@ export default function index() {
 
 
     <div>
-      <Nav />
+
+ 
       <Home />
       <About />
       <Suport />
       <Documentation />
       <Pricing />
-      <Footer />
+      {/* <Footer />  */}
 
 
-
+ 
     </div>
 
 

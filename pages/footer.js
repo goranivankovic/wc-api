@@ -43,7 +43,7 @@ function footer() {
           </div>
 
           <div className={footerStyle.firstDiv_first_row}>
-          <div className={footerStyle.firstDiv_first_row_headline }>CONTACT US</div>
+          <div className={footerStyle.firstDiv_first_row_headline }>CONTACT</div>
 
           
           <div>footballapiuk@gmail.com</div>
@@ -54,34 +54,12 @@ function footer() {
           
           </div>
 
-          <div className={footerStyle.firstDiv_first_row_icons_hw}>
 
-            
-               <a href="https://github.com/goranivankovic" target="_blank"><AiFillGithub className={footerStyle.firstDiv_first_row_icons} /></a> 
-               <a  href="https://www.linkedin.com/in/goran-ivankovi%C4%87-86b19b1b9/" target="_blank"><AiOutlineLinkedin className={footerStyle.firstDiv_first_row_icons} /></a> 
-               
-                
-              <a  href="https://www.facebook.com/" target="_blank"><AiOutlineFacebook className={footerStyle.firstDiv_first_row_icons} /></a>  
-              <a  href="https://youtube.com" target="_blank"><AiOutlineYoutube  className={footerStyle.firstDiv_first_row_icons}/></a>  
-          
-              
-             
-          
-          </div>
+
     
 
 
-        </div>
-
-
-        <div className={footerStyle.secondDiv}>
-            
-            <div>2022TERMS & CONDITION</div>
-            <div>© THE WC-API</div>
-            <div>@ PRIVACY POLICY COOKIE</div>
-
-
-        </div>
+       </div>
 
 
        <div className={footerStyle.empty}></div>

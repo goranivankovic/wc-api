@@ -30,18 +30,22 @@ function Nav() {
     
         <div className={navStyles.main}>
 
-            <div className={navStyles.logo}> WC-API <BiFootball  style={{color:"firebrick"}}/></div>
+            <div className={navStyles.logo}><BiFootball  style={{color:"black"}}/> WC-API</div>
 
-            <ul className={navStyles.navItems}>
-                <Link href="/"  >Home</Link>
-                <Link href="/about"  >About</Link> 
-                <Link href="/suport"  >Suport</Link>
-                <Link href="/documentation"  >Documentation</Link>
-                <Link href="/pricing"  >Pricing</Link>
-                <Link href="/footer"  >Contact</Link>
+            <div className={navStyles.navItems}>
+
+                
+                     <Link  href="/" >HOME</Link>
+                     <Link  href="/about" >ABOUT</Link>
+                     <Link  href="/suport">SUPORT / NEWS</Link>
+                     <Link  href="/documentation" >DOCUMENTATION</Link>
+                     <Link  href="/pricing">COMMENTS / PRICING</Link>
+                     {/* <Link  href="/" >CONTACT</Link> */}
+
+                     <button>LOGIN</button>
              
 
-            </ul>
+            </div>
 
         </div>
    
@@ -57,11 +61,11 @@ function Nav() {
                 
 
                       <Link onClick={navBar} href="/" >Home</Link>
-                     <Link onClick={navBar} href="/about" >About</Link>
-                    <Link onClick={navBar} href="/suport">Suport</Link>
-                     <Link onClick={navBar} href="/documentation" >Documentation</Link>
-                     <Link onClick={navBar} href="/pricing">Pricing</Link>
-                   <Link onClick={navBar} href="/footer" >Contact</Link>
+                     <Link onClick={navBar} href="/about" >ABOUT</Link>
+                    <Link onClick={navBar} href="/suport">SUPORT / NEWS</Link>
+                     <Link onClick={navBar} href="/documentation" >DOCUMENTATION</Link>
+                          <Link onClick={navBar} href="/pricing">COMMENTS / PRICING</Link>
+                   {/* <Link onClick={navBar} href="/footer" >CONTACT</Link> */}
  
                
 

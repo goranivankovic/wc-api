@@ -1,6 +1,6 @@
 .main {
-    padding-top: 20px;
-    min-height: 140vmin;
+
+   
     width: 100%;
     background-color: white;
     display: flex;
@@ -15,128 +15,142 @@
 
 
 .headline {
-    min-height: 10vmin;
-    width: 100%;
+
+    width: 90%;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-around;
-    font-size: 2.8vmin;
-    color: #0D5DCD;
+    color: black;
+    padding: 2em;
     /* border: 1px solid red; */
+
+}
+
+
+.headline div:nth-child(1){
+    color: var(--grey);
+    padding-top: 3em;
+    font-size: 1.3rem;
+}
+
+.headline div:nth-child(2) {
+    color: var(--grey);
+    font-size: .95rem;
+/*  */
+}
+.headline div:nth-child(3) {
+    color: var(--grey);
+    font-size: .95rem;
+}
+
+.headline div{
+    padding: .5em;
 }
 
 
 
 .secondDiv {
 
-    height: 40vmin;
-    width: 60%;
+
+    min-width: 55rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 1em;
+    margin-bottom:1em ;
+
+
     /* border: 1px solid red; */
 
 }
 
 
 
-.threddDiv {
-    height: 40vmin;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* border: 1px solid red; */
-}
-
-.fourDiv {
-    height: 40vmin;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* border: 1px solid red; */
-}
 
 
 
 
-.secondDivItemsOrange {
-    height: 90%;
-    width: 40%;
-    border-radius: 10px;
+.secondDivItem1 {
+    width:28%;
+    padding: 1em;
     display: flex;
     flex-direction: column;
+    background-color: var(--orange);
+        color: white;
     justify-content: space-around;
-    padding-right: 15px;
-    padding-left: 10px;
-    font-size: 2.1vmin;
-    background-color: #FFA500;
-    color: white;
+    font-size: .9rem;
+    box-shadow: 1px 1px 10px 1px var(--grey);
+    border-radius: .3em;
+  
+   
+
     
 }
+.secondDivItem1 div{
+    padding: .6em;
+}
 
-.secondDivItemsOrange:hover {
-    border: 2.5px solid #0D5DCD;
-    color: #FFA500;
+.secondDivItem1:hover{
     background-color: white;
-    transition: 1200ms;
+    color: black;
 }
 
 
 
-.secondDivItemsWhite {
-    height: 90%;
-    width: 40%;
-    border-radius: 10px;
-    border: 2.5px solid #0D5DCD;
+
+.secondDivItem2 {
+    width: 28%;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    color: #FFA500;
-    font-size: 2.1vmin;
-    padding-right: 15px;
-    padding-left: 10px;
-  
-}
+    font-size: .9rem;
+  box-shadow: 1px 1px 10px 1px var(--grey);
+  border-radius: .3em;
 
 
-.secondDivItemsWhite::after {
-    content: ' ';
-    display: flex;
-    align-self: flex-end;
-    height: 15px;
-    width: 15px;
-    background-color: #0D5DCD;
-    animation: blueBox 5s infinite ease-in-out;
 
 }
 
 
-.secondDivItemsWhite:hover {
-    border: 0px;
+
+
+
+.secondDivItem1:hover {
+    background-color: var(--blue);
     color: white;
-    background-color: #FFA500;
-    transition: 1200ms;
 }
 
+.secondDivItem2:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+
+
+.secondDivItem2 div {
+    padding: .6em;
+}
 
 
 
 .icons {
-    font-size: 2.8vmin;
+    font-size: 1.3rem;
+    color: var(--grey);
 }
 
+
 .secondDivItemsWhiteHeadline {
-    color: #0D5DCD;
-    font-size: 2.3vmin;
+    /* color: red; */
+    font-size: 1rem;
 
 }
 
 
 .prazanDiv2 {
-    height: 10vmin;
-    width: 100%;
+   padding: 2em;
+    width: 80%;
     /* border: 1px solid red; */
 
 
@@ -165,83 +179,60 @@
 
 
 
-@media only screen and (max-width:992px) {
+
+@media (max-width: 881px) {
+
 
     .secondDiv {
     
-            height: 40vmin;
-            width: 65%;
+    
+            min-width: 40rem;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
-            justify-content: space-around;
-            /* border: 1px solid red; */
+            justify-content: flex-start;
+            padding: 1em;
+            margin-bottom: 1em;
+    
+    
+
     
         }
     
     
     
-        .threddDiv {
-            height: 40vmin;
-            width: 65%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            /* border: 1px solid red; */
-        }
-    
-        .fourDiv {
-            height: 40vmin;
-            width: 65%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            /* border: 1px solid red; */
-        }
     
     
     
     
-        .secondDivItemsOrange {
-            height: 90%;
-            width: 43%;
-            border-radius: 10px;
+        .secondDivItem1 {
+            width: 45%;
+            padding: 1em;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
-            padding-right: 15px;
-            padding-left: 10px;
-            font-size: 2vmin;
-            background-color: #FFA500;
+            background-color: var(--orange);
             color: white;
-    
-        }
-  
-    
-    
-        .secondDivItemsWhite {
-            height: 90%;
-            width: 43%;
-            border-radius: 10px;
-            border: 2.5px solid #0D5DCD;
-            display: flex;
-            flex-direction: column;
             justify-content: space-around;
-            color: #FFA500;
-            font-size: 2vmin;
-            padding-right: 15px;
-            padding-left: 10px;
+            font-size: .9rem;
+            box-shadow: 1px 1px 10px 1px var(--grey);
+            border-radius: .3em;
+    margin-bottom: 1em;
+    
+    
     
         }
 
-
-
-                .icons {
-                    font-size: 2.7vmin;
-                }
+                .secondDivItem2 {
+                    width: 45%;
+                    padding: 1em;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    font-size: .9rem;
+                    box-shadow: 1px 1px 10px 1px var(--grey);
+                    border-radius: .3em;
         
-                .secondDivItemsWhiteHeadline {
-                    color: #0D5DCD;
-                    font-size: 2.3vmin;
+        margin-bottom: 1em;
         
                 }
 
@@ -252,136 +243,123 @@
 
 
 
-@media only screen and (max-width:768px) {
 
 
-    .main {
-            padding-top: 20px;
-            min-height: 275vmin;
-            width: 100%;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            cursor: pointer;
-    
-    
-    
-        }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 641px) {
+
+    .headline {
+
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        color: black;
+        padding: 1em;
+        /* border: 1px solid red; */
+
+    }
+
+
+    .headline div:nth-child(1) {
+        color: var(--grey);
+        padding-top: 3em;
+        font-size: 1.2rem;
+    }
+
+    .headline div:nth-child(2) {
+        color: var(--grey);
+        font-size: .9rem;
+        /*  */
+    }
+
+    .headline div:nth-child(3) {
+        color: var(--grey);
+        font-size: .9rem;
+    }
 
 
     .secondDiv {
 
-        height: 85vmin;
-        width: 85%;
+
+        min-width: 85%;
         display: flex;
         flex-direction: column;
+        flex-wrap: nowrap;
         align-items: center;
-        justify-content: space-around;
-        
-    
-       
+        justify-content: center;
+        padding: 1em;
+        margin-bottom: 1em;
+
+
+/* border: 2px solid red; */
 
     }
 
-    .threddDiv {
-        height: 85vmin;
-        width: 85%;
+
+
+
+
+
+
+    .secondDivItem1 {
+        width: 75%;
+        padding: 1em;
         display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
+        flex-direction: column;
+        background-color: var(--orange);
+        color: white;
         justify-content: space-around;
-       
+        font-size: .9rem;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        border-radius: .3em;
+margin-bottom: 1em;   margin-bottom: 1em;
+
+
+
     }
 
-
-        .fourDiv {
-        height: 85vmin;
-            width: 85%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-
-
-
-    .secondDivItemsOrange {
-        height: 40vmin;
-        width: 60%;
-        border-radius: 10px;
+    .secondDivItem2 {
+        width: 75%;
+        padding: 1em;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding-right: 15px;
-        padding-left: 10px;
-        font-size: 2.3vmin;
-        background-color: #FFA500;
-        color: white;
-        margin-top: 10px;
-       
-    }
+        font-size: .9rem;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        border-radius: .3em;
 
-    .secondDivItemsOrange:hover {
-        border: 2.5px solid #0D5DCD;
-        color: #FFA500;
-        background-color: white;
-        transition: 1200ms;
-    }
-
-
-
-    .secondDivItemsWhite {
-        height: 40vmin;
-        width: 60%;
-        border-radius: 10px;
-        border: 2.5px solid #0D5DCD;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        color: #FFA500;
-        font-size: 2.3vmin;
-        padding-right: 15px;
-        padding-left: 10px;
-        margin-top: 10px;
-    }
-
-    .secondDivItemsWhite::after {
-        content: ' ';
-        display: flex;
-        align-self: flex-end;
-        height: 15px;
-        width: 15px;
-        background-color: #0D5DCD;
-        animation: blueBox 5s infinite ease-in-out;
+   margin-bottom: 1em;
 
     }
+.prazanDiv2 {
+    padding: 1em;
+    width: 80%;
+    /* border: 1px solid red; */
 
 
-    .secondDivItemsWhite:hover {
-        border: 0px;
-        color: white;
-        background-color: #FFA500;
-        transition: 1200ms;
-    }
-
-
-
-
-    .icons {
-        font-size: 3.1vmin;
-    }
-
-    .secondDivItemsWhiteHeadline {
-        color: #0D5DCD;
-        font-size: 2.5vmin;
-
-    }
-
+}
 
 }
 
@@ -389,135 +367,116 @@
 
 
 
-@media only screen and (max-width:600px) {
 
-.main {
-        padding-top: 20px;
-        min-height: 335vmin;
-        width: 100%;
-        background-color: white;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+    .headline {
+
+        width: 80%;
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         justify-content: space-around;
-        cursor: pointer;
-
+        text-align: center;
+        color: black;
+        padding: 1em;
+        /* border: 1px solid red; */
 
 
     }
 
 
+    .headline div:nth-child(1) {
+        color: var(--grey);
+        padding-top: 3em;
+        font-size: 1.1rem;
+      
+    }
+
+    .headline div:nth-child(2) {
+        color: var(--grey);
+        font-size: .9rem;
+        /* border: 2px solid red; */
+
+    }
+
+    .headline div:nth-child(3) {
+        color: var(--grey);
+        font-size: .9rem;
+        /* border: 2px solid red; */
+
+    }
 
 
     .secondDiv {
 
-        height: 105vmin;
-        width: 85%;
+
+        min-width: 90%;
         display: flex;
         flex-direction: column;
+        flex-wrap: nowrap;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
+        padding:1em;
+        margin-bottom: 1em;
 
 
 
 
     }
 
-    .threddDiv {
-        height: 105vmin;
-        width: 85%;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: space-around;
-
-    }
 
 
-    .fourDiv {
-        height: 105vmin;
-        width: 85%;
+
+
+
+
+    .secondDivItem1 {
+        width: 90%;
+        padding: 1em;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-
-
-
-    .secondDivItemsOrange {
-        height: 50vmin;
-        width: 60%;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding-right: 15px;
-        padding-left: 10px;
-        font-size: 2.8vmin;
-        background-color: #FFA500;
+        background-color: var(--orange);
         color: white;
-        margin-top: 10px;
+        justify-content: space-around;
+        font-size: .9rem;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        border-radius: .3em;
+        margin-bottom: 1em;
+        margin-bottom: 1em;
+
+
 
     }
 
-    .secondDivItemsOrange:hover {
-        border: 2.5px solid #0D5DCD;
-        color: #FFA500;
-        background-color: white;
-        transition: 1200ms;
-    }
-
-
-
-    .secondDivItemsWhite {
-        height: 50vmin;
-        width: 60%;
-        border-radius: 10px;
-        border: 2.5px solid #0D5DCD;
+    .secondDivItem2 {
+        width: 90%;
+        padding: 1em;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        color: #FFA500;
-        font-size: 2.8vmin;
-        padding-right: 15px;
-        padding-left: 10px;
-        margin-top: 10px;
-    }
+        font-size: .9rem;
+        box-shadow: 1px 1px 10px 1px var(--grey);
+        border-radius: .3em;
 
-    .secondDivItemsWhite::after {
-        content: ' ';
-        display: flex;
-        align-self: flex-end;
-        height: 15px;
-        width: 15px;
-        background-color: #0D5DCD;
-        animation: blueBox 5s infinite ease-in-out;
+        margin-bottom: 1em;
 
     }
 
 
-    .secondDivItemsWhite:hover {
-        border: 0px;
-        color: white;
-        background-color: #FFA500;
-        transition: 1200ms;
-    }
-
-
-
-
-    .icons {
-        font-size: 3.3vmin;
-    }
-
-    .secondDivItemsWhiteHeadline {
-        color: #0D5DCD;
-        font-size: 2.9vmin;
-
-    }
 }
-
-
-

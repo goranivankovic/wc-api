@@ -8,28 +8,29 @@ import docuStyle from '../styles/Docu/Docu.module.css'
 function documentation() {
   return (
     <div>
+
+
       <Nav />
+
      <div className={docuStyle.main} id="documentation">
 
-        <div className={docuStyle.headline} style={{color:"#FFA500",borderBottom:"2px solid #0D5DCD"}}> DOCUMENTATION </div>
+        <div className={docuStyle.headline} style={{borderBottom:"2px solid #0D5DCD"}}> DOCUMENTATION </div>
 
 
 
         <div className={docuStyle.firstDiv}>
           
-          <div style={{color:"#0D5DCD"}}>API-FOOTBALL(1.0.0)</div>
+          <div>API-FOOTBALL(1.0.0)</div>
 
-          <div className={docuStyle.firstDivHeadline}>Introduction</div>
-    
-
-           <div>Welcome to WC-API!!!</div>
-            
-    
-
-            <div> You can use our API to access all API endpoints, which can get information about Football & World Cups.</div>
+                <div className={docuStyle.firstDivHeadline}>Introduction</div>
+                 <div>Welcome to WC-API!!!</div>
+                 <div> You can use our API to access all API endpoints, </div>
+                 <div> which can get information about Football & World Cups.</div>
         
-           <div>We have language bindings in C, Java, Javascript, NodeJs, Php, PowerShell, Python, Ruby, Shell!</div>
-           <div>You can view code examples in the light area to the right, and you can look the examples.</div>
+                    <div>We have language bindings in :</div>
+                    <div> C, Java, Javascript, NodeJs, Php, PowerShell, Python, Ruby, Shell!</div>
+                   <div>You can view code examples in the light area to the right.</div>
+                  
 
    
         </div>
@@ -43,25 +44,21 @@ function documentation() {
 
           <div className={docuStyle.firstDivHeadline}>Authentication</div>
 
-     <div>
-          We uses API keys to allow access to the API. You can get a new API key if u following the instructions.
-    
+     <div>  We uses API keys to allow access to the API. </div>
+     <div> You can get a new API key if u following the instructions.</div>    
 
-      </div>    
-
-      <div>
-       Our API expects for the API key to be included in all API requests to the server in a header that looks like the following:
-       </div>     
-       <div>The API is configured to work only with GET requests and has limit of requests per day.</div>   
+      <div> Our API expects for the API key to be included in all API requests, </div>
+        <div> to the server in a header that looks like the following:</div>     
+       <div>The API is configured to work only with GET requests, </div>
+       <div>and has limit of requests per day.</div>   
   
      
         </div>
 
 
-        <div className={docuStyle.headline}>EXAMPLE ONE</div>
+        <div className={docuStyle.headline}> <span>EXAMPLE ONE</span> </div>
         <div className={docuStyle.threedDiv}>
 
-          <div className={docuStyle.threedDivOne}>
             <div>Exemple GET all Worl Cup winers.</div>
             <div>Example URL: <span style={{color:"#0D5DCD"}}> https://nscoder-wc-api.vercel.app/api/allwiners</span></div>
             <div>Available on Pro-Plan & Free-Plan.</div>
@@ -70,9 +67,6 @@ function documentation() {
             <div>First you must get a API-KEY go to pricing ,</div>
             <div>and choose your Plan.</div>
 
-          </div>
-         
-          <div className={docuStyle.threedDivTwo}>{JSON.stringify(sve.data)}</div>
         </div>
 
 
@@ -82,12 +76,10 @@ function documentation() {
         
 
 
-        <div className={docuStyle.headline}>EXAMPLE TWO</div>
-        <div className={docuStyle.fourdDiv}>
+        <div className={docuStyle.headline}> <span>EXAMPLE TWO</span> </div>
+        <div className={docuStyle.threedDiv}>
 
-        <div className={docuStyle.fourDivTwo}>{JSON.stringify(sve.germany)}</div>
 
-          <div className={docuStyle.fourDivOne}>
             <div>Exemple GET World Cup winner by Year.</div>
             <div>Example URL: <span style={{color:"#0D5DCD"}}> https://nscoder-wc-api.vercel.app/api/allwiners/year/1954 </span></div>
             <div>Available only on Pro-Plan.</div>
@@ -96,8 +88,6 @@ function documentation() {
             <div>First you must get a API-KEY go to pricing ,</div>
             <div>and choose your Plan.</div>
 
-          </div>
-       
   
         </div>
 
@@ -107,12 +97,10 @@ function documentation() {
 
         
         
-        <div className={docuStyle.headline}>EXAMPLE THREE</div>
-        <div className={docuStyle.fivedDiv}>
+        <div className={docuStyle.headline}><span>EXAMPLE THREE</span> </div>
 
-        
+        <div className={docuStyle.threedDiv}>
 
-          <div className={docuStyle.fiveDivOne}>
             <div>Exemple GET World Cup winner by Country Name.</div>
             <div>Example URL:  <span style={{color:"#0D5DCD"}}> https://nscoder-wc-api.vercel.app/api/allwiners/team/germany</span></div>
             <div>Available only on Pro-Plan.</div>
@@ -121,11 +109,6 @@ function documentation() {
             <div>First you must get a API-KEY go to pricing ,</div>
             <div>and choose your Plan.</div>
 
-          </div>
-         
-
-          <div className={docuStyle.fiveDivTwo}>{JSON.stringify(sve.germany)}</div>
-  
         </div>
 
 
@@ -135,12 +118,11 @@ function documentation() {
 
 
           
-        <div className={docuStyle.headline}>EXAMPLE FOUR</div>
-        <div className={docuStyle.sixdDiv}>
+        <div className={docuStyle.headline}><span>EXAMPLE FOUR</span> </div>
 
-        <div className={docuStyle.sixDivTwo}>{JSON.stringify(sve.germany)}</div>
+        <div className={docuStyle.threedDiv}>
 
-          <div className={docuStyle.sixDivOne}>
+ 
             <div>Exemple GET World Cup winner by most wins.</div>
             <div>Example URL: <span style={{color:"#0D5DCD"}}> https://nscoder-wc-api.vercel.app/api/allwiners/mostWins/1</span></div>
             <div>Available only on Pro-Plan.</div>
@@ -148,13 +130,8 @@ function documentation() {
             <div>That is Brazil.</div>
             <div>First you must get a API-KEY go to pricing ,</div>
             <div>and choose your Plan.</div>
-
-          </div>
-         
-
-          
-  
-        </div>
+    
+      </div>
 
 
 

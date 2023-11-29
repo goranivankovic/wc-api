@@ -3,6 +3,9 @@ import Link from 'next/link';
 import pricingStyle from './../styles/Pricing/Pricing.module.css'
 import Nav from '../components/Nav';
 
+import { FaRegSmileWink , FaRegKissWinkHeart  , FaGlasses , FaRegHeart  ,FaMoneyBill  } from "react-icons/fa";
+import { GoComment  } from "react-icons/go";
+
 function pricing() {
   return (
 
@@ -11,7 +14,43 @@ function pricing() {
     <div className={pricingStyle.main} id="pricing">
          <div className={pricingStyle.prazanDiv}></div>
 
-      <div className={pricingStyle.headline}>Choose your Perfect Plan to use our WC-API</div>
+
+
+  <div className={pricingStyle.headline}>COMMENTS FROM USERS</div>
+
+
+
+          <div className={pricingStyle.coomentDiv}>
+
+            <div>Super api, recommend it to everyone. <FaRegSmileWink className={pricingStyle.iconsColor} /></div>
+             <div>Just keep up the great work.   <FaRegKissWinkHeart  className={pricingStyle.iconsColor}/>        </div>
+            <div>Great, keep up the good work!    <FaRegHeart className={pricingStyle.iconsColor} />     </div>
+            <div>Great job wc-api, keep it up. <FaGlasses  className={pricingStyle.iconsColor}/>        </div>
+            <div>Your Api is super the best on the market. <FaRegHeart className={pricingStyle.iconsColor} /></div>
+            <div>The best with price and quality. <FaMoneyBill className={pricingStyle.iconsColor} />      </div>
+
+
+            <div>Just keep it up.        </div>
+            <div>Great Api  the best on the market. <FaRegHeart className={pricingStyle.iconsColor} /></div>
+            <div>The best with price and quality. <FaMoneyBill className={pricingStyle.iconsColor} />      </div>
+
+
+
+
+          </div>
+
+
+
+
+
+
+         
+
+
+
+
+
+      <div className={pricingStyle.headline}>CHOOSE YOUR PERFECT PLAN</div>
 
 
 
@@ -21,7 +60,7 @@ function pricing() {
         <div className={pricingStyle.firstDivOne}>
           <div className={pricingStyle.firstDivHeadline}>Free Plan</div>
           <div  className={pricingStyle.firstDivText}>
-          <div>Price: 0$ Month</div>
+          <div>Price: 0$ Month </div>
           <div>100 requests / per month</div>
           <div>Countries</div>
           <div>Fixtures</div>

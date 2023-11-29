@@ -1,6 +1,6 @@
 .main {
-    padding-top: 25px;
-    height: 320vmin;
+    padding-top: 5em;
+    min-height: 100dvh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -14,45 +14,65 @@
 
 
 .headline {
-    height: 10vmin;
-    width: 20%;
+    padding: 1em;
+   min-width: 55rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    font-size: 2.7vmin;
-    color: #0D5DCD;
-    border-bottom: 2px solid #FFA500;
-    /* border: 1px solid red; */
+    justify-content:flex-start;
+    font-size: 1.1rem;
+    color: var(--grey);
+
+   
+}
+
+.headline span{
+    max-width: 20rem;
+  border-bottom: .2em solid #FFA500;
+   padding: .5em;
 }
 
 
 
 .firstDiv {
-    height: 30vmin;
-    width: 60%;
+padding: 1em;
+    min-width: 55rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-right: 15px;
-    font-size:2.15vmin;
-    /* border: 1px solid red; */
+    font-size: 1rem;
+    margin-bottom: 1em;
+
+    /* border: 1px solid blue; */
+
+}
+
+.firstDiv div{
+    padding: .5em;
+    width: 95%;
 }
 
 .firstDivHeadline {
-    color: #FFA500;
-font-size: 2.5vmin;
+    color: var(--orange);
+font-size: 1.2rem;
 }
 
-.secondDiv {
-    height: 30vmin;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-right: 20px;
-    font-size: 2.15vmin;
-    /* border: 1px solid blue; */
+.secondDiv { 
+  
+    padding: 1em;
+        min-width: 55rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1rem;
+        margin-bottom: 1em;
+    
+        /* border: 1px solid blue; */
 
+}
+
+.secondDiv div{
+    padding: .5em;
+    width: 95%;
 }
 
 
@@ -60,129 +80,21 @@ font-size: 2.5vmin;
 
 
 .threedDiv {
-    height: 42vmin;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-right: 20px;
-       font-size: 2.2vmin;
-    /* border: 1px solid blue; */
+       padding: 1em;
+        min-width: 55rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1rem;
+        margin-bottom: 1em;
+  
+/* border: 1px solid blue; */
 
 }
 
-
-.threedDivOne {
-    height: 42vmin;
-    width: 47%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-right: 20px;
-
-    /* border: 4px solid teal; */
-
-}
-
-.threedDivTwo {
-    height: 42vmin;
-    width: 47%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-right: 20px;
-    overflow-y: scroll;
-    overflow: scroll;
-
-    /* border: 1px solid red; */
-
-}
-
-
-
-
-
-
-.fourdDiv {
-    height: 42vmin;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-right: 20px;
-font-size: 2.2vmin;
-    /* border: 1px solid blue; */
-
-}
-
-
-.fourDivOne {
-    height: 42vmin;
-    width: 47%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: right;
-    padding-left: 20px;
-    /* border: 5px solid teal; */
-
-
-}
-
-.fourDivTwo {
-    height: 42vmin;
-    width: 47%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-right: 20px;
-    overflow-y: scroll;
-    overflow: scroll;
-    /* border: 1px solid teal; */
-
-}
-
-
-
-
-
-
-.fivedDiv {
-    height: 42vmin;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-right: 20px;
-   font-size: 2.2vmin;
-    /* border: 1px solid blue; */
-
-}
-
-
-.fiveDivOne {
-    height: 42vmin;
-    width: 47%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-right: 20px;
-    /* border: 4px solid teal; */
-
-
-}
-
-.fiveDivTwo {
-    height: 42vmin;
-    width: 47%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-right: 20px;
-    overflow-y: scroll;
-    overflow: scroll;
-    /* border: 1px solid teal; */
-
+.threedDiv div{
+    padding: .5em;
+    width: 95%;
 }
 
 
@@ -191,49 +103,11 @@ font-size: 2.2vmin;
 
 
 
-.sixdDiv {
-    height: 42vmin;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: right;
-    padding-right: 20px;
 
-font-size: 2.2vmin;
-    /* border: 1px solid blue; */
-
-}
-
-
-.sixDivOne {
-    height: 42vmin;
-    width: 47%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 20px;
-    /* border: 4px solid teal; */
-
-
-}
-
-.sixDivTwo {
-    height: 42vmin;
-    width: 47%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-right: 20px;
-    overflow-y: scroll;
-     overflow: scroll;
-    /* border: 1px solid teal; */
-
-}
 
 .prazanDiv {
-    height: 10vmin;
-    width: 100%;
+   padding: 2em;
+    width: 50%;
 
     /* border: 1px solid red; */
 
@@ -242,102 +116,70 @@ font-size: 2.2vmin;
 
 
 
-@media only screen and (max-width:1400px) {
 
+
+
+
+
+
+
+@media (max-width:55rem) {
     .headline {
-            height: 10vmin;
-            width: 30%;
+            padding: 1em;
+            min-width: 40rem;
             display: flex;
             align-items: center;
-            justify-content: space-around;
-            font-size: 3vmin;
-            color: #0D5DCD;
-            border-bottom: 2px solid #FFA500;
-            /* border: 1px solid red; */
-        }
-
-
-}
-
-
-
-@media only screen and (max-width:1200px) {
-
-    .headline {
-        height: 10vmin;
-        width: 30%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 3vmin;
-        color: #0D5DCD;
-        border-bottom: 2px solid #FFA500;
-        /* border: 1px solid red; */
-    }
-
-
-
-}
-
-
-
-
-
-
-
-
-@media only screen and (max-width:992px) {
-
-
-    .main {
-            padding-top: 25px;
-            height: 290vmin;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-            cursor: pointer;
-    
+            justify-content: flex-start;
+            font-size: 1.1rem;
+            color: var(--grey);
     
     
         }
     
-        .headline {
-            height: 10vmin;
-            width: 30%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            font-size: 3vmin;
-            color: #0D5DCD;
-    
-            border-bottom: 2px solid #FFA500;
-    
-            margin-bottom: 10px;
-            /* border: 1px solid red; */
+        .headline span {
+            max-width: 20rem;
+            border-bottom: .2em solid #FFA500;
+            padding: .5em;
         }
+    
+    
     
         .firstDiv {
-            height: 50vmin;
-            width: 70%;
+            padding: 1em;
+            min-width: 40rem;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            font-size: 2.3vmin;
+    
+            font-size: 1rem;
+         
     
         }
     
+        .firstDiv div {
+            padding: .5em;
+        }
+    
+        .firstDivHeadline {
+            color: var(--orange);
+            font-size: 1.2rem;
+        }
     
         .secondDiv {
-            height: 50vmin;
-            width: 70%;
+    
+            padding: 1em;
+            min-width: 40rem;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            font-size: 2.3vmin;
-            /* border: 1px solid blue; */
     
+            font-size: 1rem;
+
+    
+        }
+    
+        .secondDiv div {
+            padding: .5em;
         }
     
     
@@ -345,149 +187,29 @@ font-size: 2.2vmin;
     
     
         .threedDiv {
-            height: 35vmin;
-            width: 70%;
-            display: flex;
-            align-items: center;
-    
-            font-size: 2.3vmin;
-    
-        }
-    
-    
-        .threedDivOne {
-            height: 33vmin;
-            width: 100%;
-    
-    
-            margin-bottom: 10px;
-    
-            /* border: 1px solid teal; */
-    
-        }
-    
-        .threedDivTwo {
-    
-            display: none;
-    
-        }
-    
-    
-    
-    
-    
-    
-        .fourdDiv {
-            height: 35vmin;
-            width: 70%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-    
-            font-size: 2.3vmin;
-            /* border: 1px solid blue; */
-        }
-    
-    
-        .fourDivOne {
-            height: 33vmin;
-            width: 100%;
-            display: flex;
-            text-align: left;
-    
-    
-    
-    
-            margin-bottom: 10px;
-            /* border: 1px solid teal; */
-    
-        }
-    
-        .fourDivTwo {
-    
-            display: none;
-    
-    
-        }
-    
-    
-    
-    
-    
-    
-        .fivedDiv {
-            height: 35vmin;
-            width: 70%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-    
-    
-    
-    
-            font-size: 2.3vmin;
-    
-        }
-    
-    
-        .fiveDivOne {
-            height: 33vmin;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-    
-            margin-bottom: 10px;
-            /* border: 1px solid teal; */
-    
-        }
-    
-        .fiveDivTwo {
-    
-            display: none;
-    
-    
-        }
-    
-    
-    
-    
-    
-    
-    
-        .sixdDiv {
-            height: 35vmin;
-            width: 70%;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: space-around;
-    
-    
-            font-size: 2.3vmin;
-    
-        }
-    
-    
-        .sixDivOne {
-            height: 33vmin;
-            width: 100%;
+            padding: 1em;
+            min-width: 40rem;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            text-align: left;
-            margin-bottom: 10px;
-            /* border: 1px solid teal; */
+            font-size: 1rem;
+            margin-bottom: 1em;
+    
+
     
         }
     
-        .sixDivTwo {
-    
-            display: none;
-    
-            /* border: 1px solid teal; */
-    
+        .threedDiv div {
+            padding: .5em;
         }
+  
+ .prazanDiv {
+     padding: 1.5em;
+     width: 50%;
+
+
+
+ }
 
 
 }
@@ -497,57 +219,71 @@ font-size: 2.2vmin;
 
 
 
-@media only screen and (max-width:768px) {
 
-    .main {
-            padding-top: 25px;
-            height: 290vmin;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-            cursor: pointer;
-    
-    
-    
-        }
 
+
+
+
+
+
+
+@media (max-width:40rem) {
     .headline {
-        height: 10vmin;
-        width: 40%;
+        padding: 1em;
+        min-width: 90%;
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        font-size: 3.3vmin;
-        color: #0D5DCD;
+        justify-content: flex-start;
+        font-size: 1.1rem;
+        color: var(--grey);
 
-        border-bottom: 2px solid #FFA500;
 
-        margin-bottom: 10px;
-        /* border: 1px solid red; */
     }
+
+    .headline span {
+        max-width: 20rem;
+        border-bottom: .2em solid #FFA500;
+        padding: .5em;
+    }
+
+
 
     .firstDiv {
-        height: 50vmin;
-        width: 80%;
+        padding: 1em;
+        min-width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        font-size: 2.6vmin;
+
+        font-size: 1rem;
+
 
     }
 
+    .firstDiv div {
+        padding: .5em;
+    }
+
+    .firstDivHeadline {
+        color: var(--orange);
+        font-size: 1.2rem;
+    }
 
     .secondDiv {
-        height: 50vmin;
-        width: 80%;
+
+        padding: 1em;
+        min-width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        font-size: 2.6vmin;
-        /* border: 1px solid blue; */
 
+        font-size: 1rem;
+
+
+    }
+
+    .secondDiv div {
+        padding: .5em;
     }
 
 
@@ -555,147 +291,28 @@ font-size: 2.2vmin;
 
 
     .threedDiv {
-        height: 35vmin;
-        width: 80%;
+        padding:1em;
+        min-width: 90%;
         display: flex;
-        align-items: center;
-
-        font-size: 2.6vmin;
-       
-    }
-
-
-    .threedDivOne {
-        height:33vmin;
-        width: 100%;
-   
-        
-        margin-bottom: 10px;
-
-        /* border: 1px solid teal; */
-
-    }
-
-    .threedDivTwo {
-      
-        display: none;
-       
-    }
-
-
-
-
-
-
-    .fourdDiv {
-        height: 35vmin;
-        width: 85%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    
-        font-size: 2.6vmin;
-        /* border: 1px solid blue; */
-    }
-
-
-    .fourDivOne {
-         height: 33vmin;
-        width:100%;
-        display: flex;
-       text-align: left;
-    
-        
-     
-        
-        margin-bottom: 10px;
-        /* border: 1px solid teal; */
-
-    }
-
-    .fourDivTwo {
-    
-        display: none;
-       
-
-    }
-
-
-
-
-
-
-    .fivedDiv {
-        height: 35vmin;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-     
-        
-      
-        font-size: 2.6vmin;
-      
-    }
-
-
-    .fiveDivOne {
-        height: 33vmin;
-            width: 100%;
-        display: flex;
-        flex-direction: column;
-       
-        margin-bottom: 10px;
-        /* border: 1px solid teal; */
-
-    }
-
-    .fiveDivTwo {
-      
-        display: none;
-     
-
-    }
-
-
-
-
-
-
-
-    .sixdDiv {
-        height: 35vmin;
-        width: 80%;
-        display: flex;
-        align-items: center;
+ 
         flex-direction: column;
         justify-content: space-around;
-       
-    
-        font-size: 2.6vmin;
-    
-    }
+        font-size: 1rem;
+        margin-bottom: 1em;
+/* border: 2px solid red; */
 
-
-    .sixDivOne {
-        height: 33vmin;
-            width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: left;
-        margin-bottom: 10px;
-        /* border: 1px solid teal; */
 
     }
 
-    .sixDivTwo {
-      
-        display: none;
-        
-        /* border: 1px solid teal; */
+    .threedDiv div {
+        padding: .5em;
+    }
+
+    .prazanDiv {
+        padding: 1em;
+        width: 50%;
+
+
 
     }
 
@@ -710,211 +327,3 @@ font-size: 2.2vmin;
 
 
 
-
-
-@media only screen and (max-width:600px) {
-
-    .main {
-        padding-top: 25px;
-        height: 310vmin;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        cursor: pointer;
-
-
-
-    }
-
-    .headline {
-        height: 10vmin;
-        width: 45%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 3.5vmin;
-        color: #0D5DCD;
-
-        border-bottom: 2px solid #FFA500;
-
-        margin-bottom: 10px;
-        /* border: 1px solid red; */
-    }
-
-    .firstDiv {
-        height: 50vmin;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        font-size: 2.9vmin;
-
-    }
-
-
-    .secondDiv {
-        height: 50vmin;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        font-size: 2.9vmin;
-        /* border: 1px solid blue; */
-
-    }
-
-
-
-
-
-    .threedDiv {
-        height: 35vmin;
-        width: 80%;
-        display: flex;
-        align-items: center;
-
-        font-size: 2.9vmin;
-
-    }
-
-
-    .threedDivOne {
-        height: 33vmin;
-        width: 100%;
-
-
-        margin-bottom: 10px;
-
-        /* border: 1px solid teal; */
-
-    }
-
-    .threedDivTwo {
-
-        display: none;
-
-    }
-
-
-
-
-
-
-    .fourdDiv {
-        height: 35vmin;
-        width: 85%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-
-        font-size: 2.9vmin;
-        /* border: 1px solid blue; */
-    }
-
-
-    .fourDivOne {
-        height: 33vmin;
-        width: 100%;
-        display: flex;
-        text-align: left;
-
-
-
-
-        margin-bottom: 10px;
-        /* border: 1px solid teal; */
-
-    }
-
-    .fourDivTwo {
-
-        display: none;
-
-
-    }
-
-
-
-
-
-
-    .fivedDiv {
-        height: 35vmin;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-
-/* border: 1px solid teal; */
-
-
-        font-size: 2.9vmin;
-
-    }
-
-
-    .fiveDivOne {
-        height: 33vmin;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-
-        margin-bottom: 10px;
-       
-
-    }
-
-    .fiveDivTwo {
-
-        display: none;
-
-
-    }
-
-
-
-
-
-
-
-    .sixdDiv {
-        height: 35vmin;
-        width: 80%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: space-around;
-
-
-        font-size: 2.9vmin;
-
-    }
-
-
-    .sixDivOne {
-        height: 33vmin;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: left;
-        margin-bottom: 10px;
-        /* border: 1px solid teal; */
-
-    }
-
-    .sixDivTwo {
-
-        display: none;
-
-        /* border: 1px solid teal; */
-
-    }
-
-
-}
