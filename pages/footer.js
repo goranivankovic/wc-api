@@ -8,7 +8,7 @@ import Nav from '../components/Nav'
 function footer() {
   return (
     
-     <div className={footerStyle.glavniDiv}>
+     <div>
 
       <Nav />
 
@@ -53,10 +53,6 @@ function footer() {
           <div>Linkedin Support </div>
           
           </div>
-
-
-
-    
 
 
        </div>

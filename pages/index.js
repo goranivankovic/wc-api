@@ -25,9 +25,9 @@ export default function index() {
       <Home />
       <About />
       <Suport />
-      <Documentation />
-      <Pricing />
-      {/* <Footer />  */}
+      <Documentation /> 
+       <Pricing />
+      <Footer />  
 
 
  

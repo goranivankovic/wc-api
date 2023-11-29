@@ -180,7 +180,7 @@
 
 
 
-@media (max-width: 881px) {
+@media (max-width: 55rem) {
 
 
     .secondDiv {
@@ -266,7 +266,7 @@
 
 
 
-@media (max-width: 641px) {
+@media (max-width: 41rem) {
 
     .headline {
 
@@ -324,7 +324,7 @@
 
 
     .secondDivItem1 {
-        width: 75%;
+        width: 70%;
         padding: 1em;
         display: flex;
         flex-direction: column;
@@ -340,8 +340,11 @@ margin-bottom: 1em;   margin-bottom: 1em;
 
     }
 
+.secondDivItem1 div {
+    padding: .7em;
+}
     .secondDivItem2 {
-        width: 75%;
+        width: 70%;
         padding: 1em;
         display: flex;
         flex-direction: column;
@@ -353,6 +356,11 @@ margin-bottom: 1em;   margin-bottom: 1em;
    margin-bottom: 1em;
 
     }
+.secondDivItem2 div {
+    padding: .7em;
+}
+
+
 .prazanDiv2 {
     padding: 1em;
     width: 80%;
@@ -447,7 +455,7 @@ margin-bottom: 1em;   margin-bottom: 1em;
 
 
     .secondDivItem1 {
-        width: 90%;
+        width: 85%;
         padding: 1em;
         display: flex;
         flex-direction: column;
@@ -465,7 +473,7 @@ margin-bottom: 1em;   margin-bottom: 1em;
     }
 
     .secondDivItem2 {
-        width: 90%;
+        width: 85%;
         padding: 1em;
         display: flex;
         flex-direction: column;
