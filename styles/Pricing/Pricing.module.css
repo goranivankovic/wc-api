@@ -1,10 +1,11 @@
 .main {
     width: 100%;
-
+    
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     cursor: pointer;
 
 
