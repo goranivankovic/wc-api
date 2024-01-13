@@ -150,7 +150,7 @@
       position: fixed;
       top: 0%;
       left: 0%;
-      height: 100svh;
+      height: 100vh;
       width: 100%;
       background-color: var(--orange);
       z-index: 10;
